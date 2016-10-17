@@ -23,15 +23,15 @@ $INSBASE
   9
 $EXTMIN
  10
--180.2172544941588
+-173.6278579257494
  20
--141.3397459621556
+-132.45
  30
 0
   9
 $EXTMAX
  10
-180.2172544941587
+177.529621741481
  20
 200
  30
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-0-225 wheelbase
+9900-225 wheelbase baseline
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-163.2187233310429
+146.7857995226731
  22
-109.6281679944636
+102.1549821002387
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-397.8915204441915
+340.3843675417662
  41
-1.61869618696187
+1.712121212121212
  42
 50
  43
@@ -2235,7 +2235,7 @@ AcDbLayerTableRecord
   2
 0
  70
-    4
+    5
  62
     7
   6
@@ -2301,7 +2301,7 @@ AcDbLayerTableRecord
   2
 0-225 wheelbase
  70
-    0
+    4
  62
     7
   6
@@ -2343,7 +2343,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-0100-RCINPOWER GT2205
+0-quad 190 wheelbase
  70
     5
  62
@@ -2365,9 +2365,9 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-0200-F3 FC
+0-quad 225 wheelbase
  70
-    4
+    5
  62
     7
   6
@@ -2387,7 +2387,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-0201-ESC Little Bee 30A
+0100-RCINPOWER GT2205
  70
     5
  62
@@ -2409,9 +2409,9 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-0300-Battery
+0200-F3 FC
  70
-    5
+    4
  62
     7
   6
@@ -2431,9 +2431,141 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
+0201-ESC Little Bee 30A
+ 70
+    5
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+53
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+0300-Battery
+ 70
+    4
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+54
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
 0400-Bounding Box
  70
     5
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+55
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+8000-compare
+ 70
+    5
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+56
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+9900-225 wheelbase baseline
+ 70
+    0
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+57
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+9901-225 wheelbase deployed
+ 70
+    4
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+58
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+9902-225 wheelbase folded
+ 70
+    4
  62
     7
   6
@@ -2459,7 +2591,7 @@ AcDbSymbolTable
   0
 STYLE
   5
-53
+59
 330
 2
 100
@@ -2543,7 +2675,7 @@ ACAD
   0
 APPID
   5
-54
+5A
 330
 9
 100
@@ -2575,7 +2707,7 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-55
+5B
 330
 A
 100
@@ -2849,7 +2981,7 @@ ENTITIES
   0
 CIRCLE
   5
-56
+5C
 100
 AcDbEntity
   8
@@ -2871,7 +3003,7 @@ AcDbCircle
   0
 CIRCLE
   5
-57
+5D
 100
 AcDbEntity
   8
@@ -2893,7 +3025,7 @@ AcDbCircle
   0
 CIRCLE
   5
-58
+5E
 100
 AcDbEntity
   8
@@ -2915,7 +3047,7 @@ AcDbCircle
   0
 CIRCLE
   5
-59
+5F
 100
 AcDbEntity
   8
@@ -2937,7 +3069,7 @@ AcDbCircle
   0
 CIRCLE
   5
-5A
+60
 100
 AcDbEntity
   8
@@ -2959,7 +3091,7 @@ AcDbCircle
   0
 CIRCLE
   5
-5B
+61
 100
 AcDbEntity
   8
@@ -2981,7 +3113,7 @@ AcDbCircle
   0
 CIRCLE
   5
-5C
+62
 100
 AcDbEntity
   8
@@ -3003,7 +3135,7 @@ AcDbCircle
   0
 CIRCLE
   5
-5D
+63
 100
 AcDbEntity
   8
@@ -3025,7 +3157,7 @@ AcDbCircle
   0
 LWPOLYLINE
   5
-5E
+64
 100
 AcDbEntity
   8
@@ -3063,7 +3195,7 @@ AcDbPolyline
   0
 CIRCLE
   5
-5F
+65
 100
 AcDbEntity
   8
@@ -3085,7 +3217,7 @@ AcDbCircle
   0
 CIRCLE
   5
-60
+66
 100
 AcDbEntity
   8
@@ -3107,7 +3239,7 @@ AcDbCircle
   0
 CIRCLE
   5
-61
+67
 100
 AcDbEntity
   8
@@ -3129,7 +3261,7 @@ AcDbCircle
   0
 CIRCLE
   5
-62
+68
 100
 AcDbEntity
   8
@@ -3151,7 +3283,7 @@ AcDbCircle
   0
 LWPOLYLINE
   5
-63
+69
 100
 AcDbEntity
   8
@@ -3189,145 +3321,145 @@ AcDbPolyline
   0
 CIRCLE
   5
-64
-100
-AcDbEntity
-  8
-0-225 wheelbase
-  6
-ByLayer
- 62
-    1
-370
-   -1
-100
-AcDbCircle
- 10
-1.217775880135719e-015
- 20
-112.5
- 40
-63.5
-  0
-CIRCLE
-  5
-65
-100
-AcDbEntity
-  8
-0-225 wheelbase
-  6
-ByLayer
- 62
-    1
-370
-   -1
-100
-AcDbCircle
- 10
-97.42785792574931
- 20
--56.25000000000006
- 40
-63.5
-  0
-CIRCLE
-  5
-66
-100
-AcDbEntity
-  8
-0-225 wheelbase
-  6
-ByLayer
- 62
-    1
-370
-   -1
-100
-AcDbCircle
- 10
--97.42785792574936
- 20
--56.24999999999999
- 40
-63.5
-  0
-CIRCLE
-  5
-67
-100
-AcDbEntity
-  8
-0-225 wheelbase
-  6
-ByLayer
- 62
-   96
-420
-32768
-370
-   -1
-100
-AcDbCircle
- 10
-1.217775880135719e-015
- 20
-112.5
- 40
-76.19999999999999
-  0
-CIRCLE
-  5
-68
-100
-AcDbEntity
-  8
-0-225 wheelbase
-  6
-ByLayer
- 62
-   96
-420
-32768
-370
-   -1
-100
-AcDbCircle
- 10
-97.42785792574931
- 20
--56.25000000000006
- 40
-76.19999999999999
-  0
-CIRCLE
-  5
-69
-100
-AcDbEntity
-  8
-0-225 wheelbase
-  6
-ByLayer
- 62
-   96
-420
-32768
-370
-   -1
-100
-AcDbCircle
- 10
--97.42785792574936
- 20
--56.24999999999999
- 40
-76.19999999999999
-  0
-CIRCLE
-  5
 6A
+100
+AcDbEntity
+  8
+0-225 wheelbase
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbCircle
+ 10
+1.217775880135719e-015
+ 20
+112.5
+ 40
+63.5
+  0
+CIRCLE
+  5
+6B
+100
+AcDbEntity
+  8
+0-225 wheelbase
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574931
+ 20
+-56.25000000000006
+ 40
+63.5
+  0
+CIRCLE
+  5
+6C
+100
+AcDbEntity
+  8
+0-225 wheelbase
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbCircle
+ 10
+-97.42785792574936
+ 20
+-56.24999999999999
+ 40
+63.5
+  0
+CIRCLE
+  5
+6D
+100
+AcDbEntity
+  8
+0-225 wheelbase
+  6
+ByLayer
+ 62
+   96
+420
+32768
+370
+   -1
+100
+AcDbCircle
+ 10
+1.217775880135719e-015
+ 20
+112.5
+ 40
+76.19999999999999
+  0
+CIRCLE
+  5
+6E
+100
+AcDbEntity
+  8
+0-225 wheelbase
+  6
+ByLayer
+ 62
+   96
+420
+32768
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574931
+ 20
+-56.25000000000006
+ 40
+76.19999999999999
+  0
+CIRCLE
+  5
+6F
+100
+AcDbEntity
+  8
+0-225 wheelbase
+  6
+ByLayer
+ 62
+   96
+420
+32768
+370
+   -1
+100
+AcDbCircle
+ 10
+-97.42785792574936
+ 20
+-56.24999999999999
+ 40
+76.19999999999999
+  0
+CIRCLE
+  5
+70
 100
 AcDbEntity
   8
@@ -3349,7 +3481,7 @@ AcDbCircle
   0
 CIRCLE
   5
-6B
+71
 100
 AcDbEntity
   8
@@ -3371,7 +3503,7 @@ AcDbCircle
   0
 CIRCLE
   5
-6C
+72
 100
 AcDbEntity
   8
@@ -3393,7 +3525,7 @@ AcDbCircle
   0
 CIRCLE
   5
-6D
+73
 100
 AcDbEntity
   8
@@ -3415,7 +3547,7 @@ AcDbCircle
   0
 CIRCLE
   5
-6E
+74
 100
 AcDbEntity
   8
@@ -3437,29 +3569,7 @@ AcDbCircle
   0
 CIRCLE
   5
-6F
-100
-AcDbEntity
-  8
-0-190 wheelbase
-  6
-ByLayer
- 62
-    1
-370
-   -1
-100
-AcDbCircle
- 10
-82.27241335952165
- 20
--47.50000000000005
- 40
-63.5
-  0
-CIRCLE
-  5
-70
+75
 100
 AcDbEntity
   8
@@ -3481,7 +3591,7 @@ AcDbCircle
   0
 CIRCLE
   5
-71
+76
 100
 AcDbEntity
   8
@@ -3505,7 +3615,7 @@ AcDbCircle
   0
 CIRCLE
   5
-72
+77
 100
 AcDbEntity
   8
@@ -3529,7 +3639,7 @@ AcDbCircle
   0
 CIRCLE
   5
-73
+78
 100
 AcDbEntity
   8
@@ -3553,7 +3663,7 @@ AcDbCircle
   0
 CIRCLE
   5
-74
+79
 100
 AcDbEntity
   8
@@ -3575,7 +3685,7 @@ AcDbCircle
   0
 CIRCLE
   5
-75
+7A
 100
 AcDbEntity
   8
@@ -3597,7 +3707,7 @@ AcDbCircle
   0
 CIRCLE
   5
-76
+7B
 100
 AcDbEntity
   8
@@ -3619,7 +3729,7 @@ AcDbCircle
   0
 LWPOLYLINE
   5
-77
+7C
 100
 AcDbEntity
   8
@@ -3657,7 +3767,7 @@ AcDbPolyline
   0
 CIRCLE
   5
-78
+7D
 100
 AcDbEntity
   8
@@ -3679,7 +3789,7 @@ AcDbCircle
   0
 CIRCLE
   5
-79
+7E
 100
 AcDbEntity
   8
@@ -3701,7 +3811,7 @@ AcDbCircle
   0
 CIRCLE
   5
-7A
+7F
 100
 AcDbEntity
   8
@@ -3723,7 +3833,7 @@ AcDbCircle
   0
 CIRCLE
   5
-7B
+80
 100
 AcDbEntity
   8
@@ -3745,7 +3855,7 @@ AcDbCircle
   0
 CIRCLE
   5
-7C
+81
 100
 AcDbEntity
   8
@@ -3767,7 +3877,7 @@ AcDbCircle
   0
 CIRCLE
   5
-7D
+82
 100
 AcDbEntity
   8
@@ -3789,7 +3899,7 @@ AcDbCircle
   0
 LINE
   5
-7E
+83
 100
 AcDbEntity
   8
@@ -3813,7 +3923,7 @@ AcDbLine
   0
 LINE
   5
-7F
+84
 100
 AcDbEntity
   8
@@ -3837,7 +3947,7 @@ AcDbLine
   0
 LINE
   5
-80
+85
 100
 AcDbEntity
   8
@@ -3861,7 +3971,7 @@ AcDbLine
   0
 LINE
   5
-81
+86
 100
 AcDbEntity
   8
@@ -3885,7 +3995,7 @@ AcDbLine
   0
 LINE
   5
-82
+87
 100
 AcDbEntity
   8
@@ -3909,7 +4019,7 @@ AcDbLine
   0
 LINE
   5
-83
+88
 100
 AcDbEntity
   8
@@ -3933,7 +4043,7 @@ AcDbLine
   0
 LINE
   5
-84
+89
 100
 AcDbEntity
   8
@@ -3957,7 +4067,7 @@ AcDbLine
   0
 LINE
   5
-85
+8A
 100
 AcDbEntity
   8
@@ -3981,7 +4091,7 @@ AcDbLine
   0
 LINE
   5
-86
+8B
 100
 AcDbEntity
   8
@@ -4005,7 +4115,7 @@ AcDbLine
   0
 LINE
   5
-87
+8C
 100
 AcDbEntity
   8
@@ -4029,7 +4139,7 @@ AcDbLine
   0
 LINE
   5
-88
+8D
 100
 AcDbEntity
   8
@@ -4053,7 +4163,7 @@ AcDbLine
   0
 LINE
   5
-89
+8E
 100
 AcDbEntity
   8
@@ -4077,7 +4187,7 @@ AcDbLine
   0
 LINE
   5
-8A
+8F
 100
 AcDbEntity
   8
@@ -4101,7 +4211,7 @@ AcDbLine
   0
 LINE
   5
-8B
+90
 100
 AcDbEntity
   8
@@ -4125,7 +4235,7 @@ AcDbLine
   0
 LINE
   5
-8C
+91
 100
 AcDbEntity
   8
@@ -4149,7 +4259,7 @@ AcDbLine
   0
 LINE
   5
-8D
+92
 100
 AcDbEntity
   8
@@ -4173,7 +4283,7 @@ AcDbLine
   0
 LINE
   5
-8E
+93
 100
 AcDbEntity
   8
@@ -4197,7 +4307,7 @@ AcDbLine
   0
 LINE
   5
-8F
+94
 100
 AcDbEntity
   8
@@ -4221,7 +4331,7 @@ AcDbLine
   0
 LINE
   5
-90
+95
 100
 AcDbEntity
   8
@@ -4245,7 +4355,7 @@ AcDbLine
   0
 LINE
   5
-91
+96
 100
 AcDbEntity
   8
@@ -4269,7 +4379,7 @@ AcDbLine
   0
 LINE
   5
-92
+97
 100
 AcDbEntity
   8
@@ -4293,7 +4403,7 @@ AcDbLine
   0
 LINE
   5
-93
+98
 100
 AcDbEntity
   8
@@ -4317,7 +4427,7 @@ AcDbLine
   0
 LINE
   5
-94
+99
 100
 AcDbEntity
   8
@@ -4339,99 +4449,9 @@ AcDbLine
  21
 200
   0
-CIRCLE
-  5
-95
-100
-AcDbEntity
-  8
-0-225 wheelbase
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-29.99999999999999
- 20
-60.53847577293364
- 40
-13.75
-  0
-CIRCLE
-  5
-96
-100
-AcDbEntity
-  8
-0-225 wheelbase
-  6
-ByLayer
- 62
-    1
-370
-   -1
-100
-AcDbCircle
- 10
-29.99999999999999
- 20
-60.53847577293364
- 40
-63.5
-  0
-CIRCLE
-  5
-97
-100
-AcDbEntity
-  8
-0-225 wheelbase
-  6
-ByLayer
- 62
-   96
-420
-32768
-370
-   -1
-100
-AcDbCircle
- 10
-29.99999999999999
- 20
-60.53847577293364
- 40
-76.19999999999999
-  0
-CIRCLE
-  5
-98
-100
-AcDbEntity
-  8
-0-225 wheelbase
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--29.99999999999999
- 20
-60.53847577293366
- 40
-13.75
-  0
 LINE
   5
-99
+9A
 100
 AcDbEntity
   8
@@ -4455,7 +4475,7 @@ AcDbLine
   0
 LINE
   5
-9A
+9B
 100
 AcDbEntity
   8
@@ -4479,7 +4499,7 @@ AcDbLine
   0
 CIRCLE
   5
-9B
+9C
 100
 AcDbEntity
   8
@@ -4501,7 +4521,7 @@ AcDbCircle
   0
 CIRCLE
   5
-9C
+9D
 100
 AcDbEntity
   8
@@ -4521,81 +4541,9 @@ AcDbCircle
  40
 13.75
   0
-LINE
-  5
-9D
-100
-AcDbEntity
-  8
-0-225 wheelbase
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-100
- 20
-150
- 11
--100
- 21
-150
-  0
-LINE
-  5
-9E
-100
-AcDbEntity
-  8
-0-250 wheelbase
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--70
- 20
-165
- 11
-70
- 21
-165
-  0
-LINE
-  5
-9F
-100
-AcDbEntity
-  8
-0-225 wheelbase
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-21
- 20
--17.32050807568879
- 11
-21
- 21
-200
-  0
 CIRCLE
   5
-A0
+9E
 100
 AcDbEntity
   8
@@ -4617,11 +4565,425 @@ AcDbCircle
   0
 CIRCLE
   5
+9F
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1.217775880135719e-015
+ 20
+112.5
+ 40
+13.75
+  0
+CIRCLE
+  5
+A0
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-97.42785792574936
+ 20
+-56.24999999999996
+ 40
+13.75
+  0
+LINE
+  5
 A1
 100
 AcDbEntity
   8
-0-225 wheelbase
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbLine
+ 10
+0
+ 20
+0
+ 11
+4.399258735077183e-015
+ 21
+200
+  0
+LINE
+  5
+A2
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbLine
+ 10
+0
+ 20
+0
+ 11
+-173.2050807568878
+ 21
+-99.99999999999996
+  0
+LINE
+  5
+A3
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbLine
+ 10
+0
+ 20
+0
+ 11
+173.2050807568877
+ 21
+-100.0000000000001
+  0
+LINE
+  5
+A4
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbLine
+ 10
+30
+ 20
+-17.32050807568879
+ 11
+30
+ 21
+200
+  0
+LINE
+  5
+A5
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+    5
+370
+   -1
+100
+AcDbLine
+ 10
+21
+ 20
+-1.732050807568885
+ 11
+177.529621741481
+ 21
+-92.10447005616334
+  0
+LINE
+  5
+A6
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+    5
+370
+   -1
+100
+AcDbLine
+ 10
+21
+ 20
+-1.732050807568885
+ 11
+21
+ 21
+200
+  0
+CIRCLE
+  5
+A7
+100
+AcDbEntity
+  8
+0200-F3 FC
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+15.25
+ 20
+15.25
+ 40
+2.5
+  0
+CIRCLE
+  5
+A8
+100
+AcDbEntity
+  8
+0200-F3 FC
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-15.25
+ 20
+15.25
+ 40
+2.5
+  0
+CIRCLE
+  5
+A9
+100
+AcDbEntity
+  8
+0200-F3 FC
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-15.25
+ 20
+-15.25
+ 40
+2.5
+  0
+CIRCLE
+  5
+AA
+100
+AcDbEntity
+  8
+0200-F3 FC
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+15.25
+ 20
+-15.25
+ 40
+2.5
+  0
+CIRCLE
+  5
+AB
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+30.00000000000007
+ 20
+91.71539030917344
+ 40
+13.75
+  0
+CIRCLE
+  5
+AC
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574936
+ 20
+-56.24999999999996
+ 40
+13.75
+  0
+LINE
+  5
+AD
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbLine
+ 10
+-30
+ 20
+-17.32050807568879
+ 11
+-30
+ 21
+200
+  0
+CIRCLE
+  5
+AE
+100
+AcDbEntity
+  8
+0-quad 225 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 40
+112.5
+  0
+LINE
+  5
+AF
+100
+AcDbEntity
+  8
+0-quad 225 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-100
+ 20
+100
+ 11
+100
+ 21
+-100
+  0
+LINE
+  5
+B0
+100
+AcDbEntity
+  8
+0-quad 225 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+100
+ 20
+100
+ 11
+-100
+ 21
+-100
+  0
+CIRCLE
+  5
+B1
+100
+AcDbEntity
+  8
+0-quad 225 wheelbase
   6
 ByLayer
  62
@@ -4631,19 +4993,85 @@ ByLayer
 100
 AcDbCircle
  10
-29.99999999999999
+79.5495128834866
  20
-91.71539030917347
+79.5495128834866
  40
 63.5
   0
 CIRCLE
   5
-A2
+B2
 100
 AcDbEntity
   8
-0-225 wheelbase
+0-quad 225 wheelbase
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbCircle
+ 10
+-79.5495128834866
+ 20
+79.5495128834866
+ 40
+63.5
+  0
+CIRCLE
+  5
+B3
+100
+AcDbEntity
+  8
+0-quad 225 wheelbase
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbCircle
+ 10
+79.5495128834866
+ 20
+-79.5495128834866
+ 40
+63.5
+  0
+CIRCLE
+  5
+B4
+100
+AcDbEntity
+  8
+0-quad 225 wheelbase
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbCircle
+ 10
+-79.5495128834866
+ 20
+-79.5495128834866
+ 40
+63.5
+  0
+CIRCLE
+  5
+B5
+100
+AcDbEntity
+  8
+0-quad 225 wheelbase
   6
 ByLayer
  62
@@ -4655,19 +5083,91 @@ ByLayer
 100
 AcDbCircle
  10
-29.99999999999999
+79.5495128834866
  20
-91.71539030917347
+79.5495128834866
  40
 76.19999999999999
   0
 CIRCLE
   5
-A3
+B6
 100
 AcDbEntity
   8
-0-225 wheelbase
+0-quad 225 wheelbase
+  6
+ByLayer
+ 62
+   96
+420
+32768
+370
+   -1
+100
+AcDbCircle
+ 10
+79.5495128834866
+ 20
+-79.5495128834866
+ 40
+76.19999999999999
+  0
+CIRCLE
+  5
+B7
+100
+AcDbEntity
+  8
+0-quad 225 wheelbase
+  6
+ByLayer
+ 62
+   96
+420
+32768
+370
+   -1
+100
+AcDbCircle
+ 10
+-79.5495128834866
+ 20
+79.5495128834866
+ 40
+76.19999999999999
+  0
+CIRCLE
+  5
+B8
+100
+AcDbEntity
+  8
+0-quad 225 wheelbase
+  6
+ByLayer
+ 62
+   96
+420
+32768
+370
+   -1
+100
+AcDbCircle
+ 10
+-79.5495128834866
+ 20
+-79.5495128834866
+ 40
+76.19999999999999
+  0
+CIRCLE
+  5
+B9
+100
+AcDbEntity
+  8
+0-quad 225 wheelbase
   6
 ByLayer
  62
@@ -4677,19 +5177,19 @@ ByLayer
 100
 AcDbCircle
  10
-15.25
+79.5495128834866
  20
-15.25
+79.5495128834866
  40
-2.5
+13.75
   0
 CIRCLE
   5
-A4
+BA
 100
 AcDbEntity
   8
-0-225 wheelbase
+0-quad 225 wheelbase
   6
 ByLayer
  62
@@ -4699,19 +5199,19 @@ ByLayer
 100
 AcDbCircle
  10
-15.25
+-79.5495128834866
  20
--15.25
+79.5495128834866
  40
-2.5
+13.75
   0
 CIRCLE
   5
-A5
+BB
 100
 AcDbEntity
   8
-0-225 wheelbase
+0-quad 225 wheelbase
   6
 ByLayer
  62
@@ -4721,19 +5221,19 @@ ByLayer
 100
 AcDbCircle
  10
--15.25
+-79.5495128834866
  20
--15.25
+-79.5495128834866
  40
-2.5
+13.75
   0
 CIRCLE
   5
-A6
+BC
 100
 AcDbEntity
   8
-0-225 wheelbase
+0-quad 225 wheelbase
   6
 ByLayer
  62
@@ -4743,19 +5243,409 @@ ByLayer
 100
 AcDbCircle
  10
--15.25
+79.5495128834866
  20
-15.25
+-79.5495128834866
  40
-2.5
+13.75
   0
 CIRCLE
   5
-A7
+BD
 100
 AcDbEntity
   8
-0-225 wheelbase
+8000-compare
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 40
+112.5
+  0
+CIRCLE
+  5
+BE
+100
+AcDbEntity
+  8
+8000-compare
+  6
+ByLayer
+ 62
+    2
+370
+   -1
+100
+AcDbCircle
+ 10
+79.5495128834866
+ 20
+79.5495128834866
+ 40
+76.19999999999999
+  0
+CIRCLE
+  5
+BF
+100
+AcDbEntity
+  8
+8000-compare
+  6
+ByLayer
+ 62
+    2
+370
+   -1
+100
+AcDbCircle
+ 10
+79.5495128834866
+ 20
+-79.5495128834866
+ 40
+76.19999999999999
+  0
+CIRCLE
+  5
+C0
+100
+AcDbEntity
+  8
+8000-compare
+  6
+ByLayer
+ 62
+    2
+370
+   -1
+100
+AcDbCircle
+ 10
+-79.5495128834866
+ 20
+79.5495128834866
+ 40
+76.19999999999999
+  0
+CIRCLE
+  5
+C1
+100
+AcDbEntity
+  8
+8000-compare
+  6
+ByLayer
+ 62
+    2
+370
+   -1
+100
+AcDbCircle
+ 10
+-79.5495128834866
+ 20
+-79.5495128834866
+ 40
+76.19999999999999
+  0
+CIRCLE
+  5
+C2
+100
+AcDbEntity
+  8
+8000-compare
+  6
+ByLayer
+ 62
+   96
+420
+32768
+370
+   -1
+100
+AcDbCircle
+ 10
+1.217775880135719e-015
+ 20
+79.5495128834866
+ 40
+76.19999999999999
+  0
+CIRCLE
+  5
+C3
+100
+AcDbEntity
+  8
+8000-compare
+  6
+ByLayer
+ 62
+   96
+420
+32768
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574931
+ 20
+-89.20048711651346
+ 40
+76.19999999999999
+  0
+CIRCLE
+  5
+C4
+100
+AcDbEntity
+  8
+8000-compare
+  6
+ByLayer
+ 62
+   96
+420
+32768
+370
+   -1
+100
+AcDbCircle
+ 10
+-97.42785792574936
+ 20
+-89.2004871165134
+ 40
+76.19999999999999
+  0
+LINE
+  5
+C5
+100
+AcDbEntity
+  8
+0-250 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-30
+ 20
+73.03847577293365
+ 11
+30
+ 21
+73.03847577293365
+  0
+LINE
+  5
+C6
+100
+AcDbEntity
+  8
+0-250 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-108.2531754730548
+ 20
+-62.49999999999996
+ 11
+108.2531754730548
+ 21
+-62.50000000000006
+  0
+CIRCLE
+  5
+C7
+100
+AcDbEntity
+  8
+0-190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+2.588207426157396e-015
+ 20
+94.99999999999999
+ 40
+13.75
+  0
+CIRCLE
+  5
+C8
+100
+AcDbEntity
+  8
+0-190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+82.27241335952165
+ 20
+-47.50000000000005
+ 40
+13.75
+  0
+CIRCLE
+  5
+C9
+100
+AcDbEntity
+  8
+0-190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-82.2724
+ 20
+-47.5
+ 40
+13.75
+  0
+LINE
+  5
+CA
+100
+AcDbEntity
+  8
+0-190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2.588207426157396e-015
+ 20
+94.99999999999999
+ 11
+0
+ 21
+0
+  0
+LINE
+  5
+CB
+100
+AcDbEntity
+  8
+0-190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0
+ 20
+0
+ 11
+-82.2724
+ 21
+-47.5
+  0
+LINE
+  5
+CC
+100
+AcDbEntity
+  8
+0-190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+0
+ 20
+0
+ 11
+82.27241335952165
+ 21
+-47.50000000000005
+  0
+CIRCLE
+  5
+CD
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+30.00000000000007
+ 20
+91.71539030917344
+ 40
+13.75
+  0
+CIRCLE
+  5
+CE
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
   6
 ByLayer
  62
@@ -4767,17 +5657,1291 @@ AcDbCircle
  10
 21
  20
--1.732050807568884
+-1.732050807568881
  40
 2.5
   0
-CIRCLE
+LINE
   5
-A8
+CF
 100
 AcDbEntity
   8
-0-225 wheelbase
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+21.85523835298197
+ 20
+80.63724255274488
+ 11
+19.02341854736987
+ 21
+70.06874716032073
+  0
+LINE
+  5
+D0
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+31.51449661587265
+ 20
+78.04905210171967
+ 11
+28.68267681026056
+ 21
+67.48055670929551
+  0
+LINE
+  5
+D1
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+28.68267681026056
+ 20
+67.48055670929551
+ 11
+19.02341854736987
+ 21
+70.06874716032073
+  0
+ARC
+  5
+D2
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+34.87500000000007
+ 20
+83.27164262227517
+ 40
+1.5
+100
+AcDbArc
+ 50
+210
+ 51
+299.9999999999999
+  0
+LINE
+  5
+D3
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+35.62500000000007
+ 20
+81.97260451659851
+ 11
+35.62500000000007
+ 21
+81.97260451659851
+  0
+ARC
+  5
+D4
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+34.87500000000007
+ 20
+83.27164262227517
+ 40
+1.5
+100
+AcDbArc
+ 50
+299.9999999999999
+ 51
+29.99999999999996
+  0
+ARC
+  5
+D5
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+25.12500000000007
+ 20
+100.1591379960717
+ 40
+1.5
+100
+AcDbArc
+ 50
+120
+ 51
+210
+  0
+LINE
+  5
+D6
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+24.37500000000007
+ 20
+101.4581761017484
+ 11
+24.37500000000007
+ 21
+101.4581761017484
+  0
+ARC
+  5
+D7
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+25.12500000000007
+ 20
+100.1591379960717
+ 40
+1.5
+100
+AcDbArc
+ 50
+29.99999999999996
+ 51
+120
+  0
+ARC
+  5
+D8
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+21.55625231310179
+ 20
+86.84039030917344
+ 40
+1.5
+100
+AcDbArc
+ 50
+120
+ 51
+210
+  0
+LINE
+  5
+D9
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+20.25721420742514
+ 20
+86.09039030917344
+ 11
+20.25721420742514
+ 21
+86.09039030917344
+  0
+ARC
+  5
+DA
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+21.55625231310179
+ 20
+86.84039030917344
+ 40
+1.5
+100
+AcDbArc
+ 50
+210
+ 51
+299.9999999999999
+  0
+ARC
+  5
+DB
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+38.44374768689835
+ 20
+96.59039030917344
+ 40
+1.5
+100
+AcDbArc
+ 50
+29.99999999999996
+ 51
+120
+  0
+LINE
+  5
+DC
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+39.74278579257501
+ 20
+97.34039030917344
+ 11
+39.74278579257501
+ 21
+97.34039030917344
+  0
+ARC
+  5
+DD
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+38.44374768689835
+ 20
+96.59039030917344
+ 40
+1.5
+100
+AcDbArc
+ 50
+299.9999999999999
+ 51
+29.99999999999996
+  0
+LINE
+  5
+DE
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+33.57596189432341
+ 20
+82.52164262227517
+ 11
+30.86602540378452
+ 21
+87.21539030917344
+  0
+ARC
+  5
+DF
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+30.00000000000007
+ 20
+86.71539030917344
+ 40
+1
+100
+AcDbArc
+ 50
+29.99999999999996
+ 51
+90.0000000000003
+  0
+LINE
+  5
+E0
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+22.3062523131018
+ 20
+85.54135220349679
+ 11
+27.00000000000016
+ 21
+88.25128869403574
+  0
+ARC
+  5
+E1
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+30.00000000000007
+ 20
+91.71539030917344
+ 40
+4
+100
+AcDbArc
+ 50
+240.0000000000005
+ 51
+270
+  0
+ARC
+  5
+E2
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+27.50000000000016
+ 20
+87.3852632902513
+ 40
+1
+100
+AcDbArc
+ 50
+60.00000000000095
+ 51
+120
+  0
+LINE
+  5
+E3
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+20.8062523131018
+ 20
+88.1394284148501
+ 11
+25.50000000000017
+ 21
+90.84936490538907
+  0
+ARC
+  5
+E4
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+25.00000000000017
+ 20
+91.7153903091735
+ 40
+1
+100
+AcDbArc
+ 50
+299.9999999999999
+ 51
+359.9999999999995
+  0
+LINE
+  5
+E5
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+26.53589838486231
+ 20
+94.71539030917347
+ 11
+23.82596189432342
+ 21
+99.40913799607172
+  0
+ARC
+  5
+E6
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+30.00000000000007
+ 20
+91.71539030917344
+ 40
+4
+100
+AcDbArc
+ 50
+149.9999999999997
+ 51
+179.9999999999993
+  0
+ARC
+  5
+E7
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+25.66987298107787
+ 20
+94.21539030917347
+ 40
+1
+100
+AcDbArc
+ 50
+329.9999999999996
+ 51
+29.99999999999996
+  0
+LINE
+  5
+E8
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+29.13397459621565
+ 20
+96.21539030917344
+ 11
+26.42403810567673
+ 21
+100.9091379960717
+  0
+ARC
+  5
+E9
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+30.00000000000009
+ 20
+96.71539030917344
+ 40
+1
+100
+AcDbArc
+ 50
+210
+ 51
+269.9999999999999
+  0
+LINE
+  5
+EA
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+32.99999999999998
+ 20
+95.17949192431115
+ 11
+37.69374768689835
+ 21
+97.8894284148501
+  0
+ARC
+  5
+EB
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+30.00000000000007
+ 20
+91.71539030917344
+ 40
+4
+100
+AcDbArc
+ 50
+60.00000000000065
+ 51
+89.9999999999999
+  0
+ARC
+  5
+EC
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+32.49999999999998
+ 20
+96.04551732809558
+ 40
+1
+100
+AcDbArc
+ 50
+240.0000000000004
+ 51
+299.9999999999999
+  0
+LINE
+  5
+ED
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+36.17403810567673
+ 20
+84.02164262227517
+ 11
+33.46410161513783
+ 21
+88.71539030917346
+  0
+ARC
+  5
+EE
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+34.33012701892227
+ 20
+89.21539030917346
+ 40
+1
+100
+AcDbArc
+ 50
+150.0000000000001
+ 51
+210
+  0
+LINE
+  5
+EF
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+34.49999999999998
+ 20
+92.58141571295783
+ 11
+39.19374768689835
+ 21
+95.29135220349679
+  0
+ARC
+  5
+F0
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+30.00000000000007
+ 20
+91.71539030917344
+ 40
+4
+100
+AcDbArc
+ 50
+330.0000000000001
+ 51
+359.9999999999993
+  0
+ARC
+  5
+F1
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+34.99999999999998
+ 20
+91.71539030917339
+ 40
+1
+100
+AcDbArc
+ 50
+120
+ 51
+179.9999999999995
+  0
+CIRCLE
+  5
+F2
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+25.00000000000002
+ 20
+17.86386713469653
+ 40
+1.5
+  0
+ARC
+  5
+F3
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+17.00000000000009
+ 20
+99.22094380863861
+ 40
+2
+100
+AcDbArc
+ 50
+120
+ 51
+180.0000000000001
+  0
+LINE
+  5
+F4
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+16.00000000000009
+ 20
+100.9529946162075
+ 11
+29.0000000000001
+ 21
+108.4585481156726
+  0
+ARC
+  5
+F5
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+30.0000000000001
+ 20
+106.7264973081037
+ 40
+2
+100
+AcDbArc
+ 50
+59.99999999999983
+ 51
+120
+  0
+LINE
+  5
+F6
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+31.00000000000011
+ 20
+108.4585481156726
+ 11
+44.00000000000009
+ 21
+100.9529946162075
+  0
+ARC
+  5
+F7
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+43.00000000000009
+ 20
+99.22094380863858
+ 40
+2
+100
+AcDbArc
+ 50
+360
+ 51
+59.99999999999993
+  0
+LINE
+  5
+F8
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+45.00000000000009
+ 20
+84.20983680970829
+ 11
+45.00000000000009
+ 21
+99.22094380863859
+  0
+ARC
+  5
+F9
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+43.00000000000009
+ 20
+84.20983680970829
+ 40
+2
+100
+AcDbArc
+ 50
+299.9999999999999
+ 51
+359.9999999999999
+  0
+LINE
+  5
+FA
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+16.00000000000003
+ 20
+32.21222132418594
+ 11
+16.00000000000006
+ 21
+67.21222132418593
+  0
+LINE
+  5
+FB
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+32.00000000000003
+ 20
+32.2122213241859
+ 11
+32.00000000000006
+ 21
+67.21222132418589
+  0
+LINE
+  5
+FC
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+32.00000000000003
+ 20
+32.2122213241859
+ 11
+16.00000000000003
+ 21
+32.21222132418594
+  0
+LINE
+  5
+FD
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+16.00000000000006
+ 20
+67.21222132418593
+ 11
+32.00000000000006
+ 21
+67.21222132418589
+  0
+LINE
+  5
+FE
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+34.00000000000006
+ 20
+76.70428331024316
+ 11
+44.00000000000009
+ 21
+82.47778600213942
+  0
+ARC
+  5
+FF
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+35.00000000000006
+ 20
+74.97223250267429
+ 40
+2
+100
+AcDbArc
+ 50
+120
+ 51
+179.9999999999999
+  0
+CIRCLE
+  5
+100
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
   6
 ByLayer
  62
@@ -4789,9 +6953,2543 @@ AcDbCircle
  10
 21
  20
--1.732050807568884
+-1.732050807568881
  40
-93.87983942927805
+1
+  0
+LINE
+  5
+101
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+26
+ 20
+-10.39230484541326
+ 11
+27.49999999999998
+ 21
+-9.526279441628834
+  0
+LINE
+  5
+102
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+32.99999999999999
+ 20
+-1.895467290069508e-014
+ 11
+33.00000000000006
+ 21
+74.97223250267429
+  0
+ARC
+  5
+103
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+21.99999999999999
+ 20
+-8.43769498715119e-015
+ 40
+11
+100
+AcDbArc
+ 50
+299.9999999999999
+ 51
+359.9999999999999
+  0
+LINE
+  5
+104
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+15.00000000000002
+ 20
+19.9337484987988
+ 11
+15.00000000000008
+ 21
+99.22094380863861
+  0
+ARC
+  5
+105
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+17.00000000000001
+ 20
+19.9337484987988
+ 40
+2
+100
+AcDbArc
+ 50
+179.9999999999999
+ 51
+249.5126848852771
+  0
+ARC
+  5
+106
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+20.99999930062483
+ 20
+-1.732051211353322
+ 40
+10
+100
+AcDbArc
+ 50
+162.1511719979875
+ 51
+299.9999999999999
+  0
+ARC
+  5
+107
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+15.25
+ 20
+15.25
+ 40
+3
+100
+AcDbArc
+ 50
+284.5405915180141
+ 51
+69.51268488527717
+  0
+LINE
+  5
+108
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.48131401054902
+ 20
+1.333014913299526
+ 11
+14.60159209606988
+ 21
+11.023163153399
+  0
+ARC
+  5
+109
+100
+AcDbEntity
+  8
+9902-225 wheelbase folded
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+16.50532915408505
+ 20
+10.41014992846843
+ 40
+2
+100
+AcDbArc
+ 50
+104.540591518014
+ 51
+162.1511716978073
+  0
+CIRCLE
+  5
+10A
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574927
+ 20
+-56.25000000000009
+ 40
+13.75
+  0
+CIRCLE
+  5
+10B
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+21
+ 20
+-1.732050807568881
+ 40
+2.5
+  0
+LINE
+  5
+10C
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+91.9062813653136
+ 20
+-43.65735562769895
+ 11
+84.16960577850155
+ 21
+-35.92068004088688
+  0
+LINE
+  5
+10D
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+84.83521355344811
+ 20
+-50.72842343956441
+ 11
+77.09853796663606
+ 21
+-42.99174785275235
+  0
+LINE
+  5
+10E
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+77.09853796663606
+ 20
+-42.99174785275235
+ 11
+84.16960577850155
+ 21
+-35.92068004088688
+  0
+ARC
+  5
+10F
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+87.67785792574927
+ 20
+-56.25000000000009
+ 40
+1.5
+100
+AcDbArc
+ 50
+90
+ 51
+180
+  0
+LINE
+  5
+110
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+86.17785792574927
+ 20
+-56.25000000000009
+ 11
+86.17785792574927
+ 21
+-56.25000000000009
+  0
+ARC
+  5
+111
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+87.67785792574927
+ 20
+-56.25000000000009
+ 40
+1.5
+100
+AcDbArc
+ 50
+180
+ 51
+269.9999999999999
+  0
+ARC
+  5
+112
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+107.1778579257493
+ 20
+-56.2500000000001
+ 40
+1.5
+100
+AcDbArc
+ 50
+360
+ 51
+90
+  0
+LINE
+  5
+113
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+108.6778579257493
+ 20
+-56.2500000000001
+ 11
+108.6778579257493
+ 21
+-56.2500000000001
+  0
+ARC
+  5
+114
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+107.1778579257493
+ 20
+-56.2500000000001
+ 40
+1.5
+100
+AcDbArc
+ 50
+269.9999999999999
+ 51
+360
+  0
+ARC
+  5
+115
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574927
+ 20
+-46.50000000000009
+ 40
+1.5
+100
+AcDbArc
+ 50
+359.9999999999999
+ 51
+90
+  0
+LINE
+  5
+116
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+97.42785792574927
+ 20
+-45.00000000000009
+ 11
+97.42785792574927
+ 21
+-45.00000000000009
+  0
+ARC
+  5
+117
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574927
+ 20
+-46.50000000000009
+ 40
+1.5
+100
+AcDbArc
+ 50
+90
+ 51
+180
+  0
+ARC
+  5
+118
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574925
+ 20
+-66.0000000000001
+ 40
+1.5
+100
+AcDbArc
+ 50
+269.9999999999999
+ 51
+359.9999999999999
+  0
+LINE
+  5
+119
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+97.42785792574925
+ 20
+-67.50000000000009
+ 11
+97.42785792574925
+ 21
+-67.50000000000009
+  0
+ARC
+  5
+11A
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574925
+ 20
+-66.0000000000001
+ 40
+1.5
+100
+AcDbArc
+ 50
+180
+ 51
+269.9999999999999
+  0
+LINE
+  5
+11B
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+87.67785792574927
+ 20
+-54.75000000000009
+ 11
+93.09773090682707
+ 21
+-54.7500000000001
+  0
+ARC
+  5
+11C
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+93.09773090682707
+ 20
+-53.75000000000009
+ 40
+1
+100
+AcDbArc
+ 50
+269.9999999999999
+ 51
+330.0000000000003
+  0
+LINE
+  5
+11D
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+95.92785792574927
+ 20
+-46.50000000000009
+ 11
+95.92785792574927
+ 21
+-51.919872981078
+  0
+ARC
+  5
+11E
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574927
+ 20
+-56.25000000000009
+ 40
+4
+100
+AcDbArc
+ 50
+120.0000000000005
+ 51
+150
+  0
+ARC
+  5
+11F
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+94.92785792574927
+ 20
+-51.919872981078
+ 40
+1
+100
+AcDbArc
+ 50
+300.0000000000009
+ 51
+360
+  0
+LINE
+  5
+120
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+98.92785792574927
+ 20
+-46.5000000000001
+ 11
+98.92785792574927
+ 21
+-51.91987298107802
+  0
+ARC
+  5
+121
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+99.92785792574927
+ 20
+-51.91987298107802
+ 40
+1
+100
+AcDbArc
+ 50
+180
+ 51
+239.9999999999995
+  0
+LINE
+  5
+122
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+101.7579849446715
+ 20
+-54.75000000000011
+ 11
+107.1778579257493
+ 21
+-54.7500000000001
+  0
+ARC
+  5
+123
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574927
+ 20
+-56.25000000000009
+ 40
+4
+100
+AcDbArc
+ 50
+29.99999999999975
+ 51
+59.99999999999932
+  0
+ARC
+  5
+124
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+101.7579849446715
+ 20
+-53.7500000000001
+ 40
+1
+100
+AcDbArc
+ 50
+209.9999999999995
+ 51
+269.9999999999999
+  0
+LINE
+  5
+125
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+101.7579849446714
+ 20
+-57.75000000000011
+ 11
+107.1778579257493
+ 21
+-57.7500000000001
+  0
+ARC
+  5
+126
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+101.7579849446714
+ 20
+-58.75000000000011
+ 40
+1
+100
+AcDbArc
+ 50
+90
+ 51
+149.9999999999998
+  0
+LINE
+  5
+127
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+98.92785792574927
+ 20
+-60.58012701892218
+ 11
+98.92785792574925
+ 21
+-66.0000000000001
+  0
+ARC
+  5
+128
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574927
+ 20
+-56.25000000000009
+ 40
+4
+100
+AcDbArc
+ 50
+300.0000000000006
+ 51
+329.9999999999999
+  0
+ARC
+  5
+129
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+99.92785792574927
+ 20
+-60.58012701892218
+ 40
+1
+100
+AcDbArc
+ 50
+120.0000000000005
+ 51
+180
+  0
+LINE
+  5
+12A
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+87.67785792574927
+ 20
+-57.75000000000009
+ 11
+93.09773090682708
+ 21
+-57.7500000000001
+  0
+ARC
+  5
+12B
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+93.09773090682708
+ 20
+-58.7500000000001
+ 40
+1
+100
+AcDbArc
+ 50
+30.00000000000012
+ 51
+90
+  0
+LINE
+  5
+12C
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+95.92785792574927
+ 20
+-60.58012701892218
+ 11
+95.92785792574925
+ 21
+-66.00000000000009
+  0
+ARC
+  5
+12D
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574927
+ 20
+-56.25000000000009
+ 40
+4
+100
+AcDbArc
+ 50
+210.0000000000002
+ 51
+239.9999999999993
+  0
+ARC
+  5
+12E
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+94.92785792574925
+ 20
+-60.58012701892218
+ 40
+1
+100
+AcDbArc
+ 50
+360
+ 51
+59.99999999999951
+  0
+CIRCLE
+  5
+12F
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+35.97056274847712
+ 20
+-14.99411139383937
+ 40
+1.5
+  0
+ARC
+  5
+130
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+110.4278579257493
+ 20
+-48.74444650053499
+ 40
+2
+100
+AcDbArc
+ 50
+360
+ 51
+60.00000000000005
+  0
+LINE
+  5
+131
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+112.4278579257493
+ 20
+-48.74444650053499
+ 11
+112.4278579257493
+ 21
+-63.75555349946528
+  0
+ARC
+  5
+132
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+110.4278579257493
+ 20
+-63.75555349946528
+ 40
+2
+100
+AcDbArc
+ 50
+299.9999999999998
+ 51
+360
+  0
+LINE
+  5
+133
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+111.4278579257493
+ 20
+-65.48760430703416
+ 11
+98.42785792574925
+ 21
+-72.99315780649926
+  0
+ARC
+  5
+134
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+97.42785792574925
+ 20
+-71.26110699893037
+ 40
+2
+100
+AcDbArc
+ 50
+239.9999999999999
+ 51
+299.9999999999999
+  0
+LINE
+  5
+135
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+83.42785792574924
+ 20
+-65.4876043070341
+ 11
+96.42785792574925
+ 21
+-72.99315780649927
+  0
+ARC
+  5
+136
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+84.42785792574924
+ 20
+-63.75555349946523
+ 40
+2
+100
+AcDbArc
+ 50
+180
+ 51
+239.9999999999999
+  0
+LINE
+  5
+137
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+52.89660197907182
+ 20
+-14.37405985452414
+ 11
+83.20749111152713
+ 21
+-31.87405985452418
+  0
+LINE
+  5
+138
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+44.89660197907178
+ 20
+-28.23046631507514
+ 11
+75.20749111152709
+ 21
+-45.73046631507518
+  0
+LINE
+  5
+139
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+44.89660197907178
+ 20
+-28.23046631507514
+ 11
+52.89660197907182
+ 21
+-14.37405985452414
+  0
+LINE
+  5
+13A
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+83.20749111152713
+ 20
+-31.87405985452418
+ 11
+75.20749111152709
+ 21
+-45.73046631507518
+  0
+LINE
+  5
+13B
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+82.42785792574925
+ 20
+-52.20854811567269
+ 11
+82.42785792574925
+ 21
+-63.75555349946523
+  0
+ARC
+  5
+13C
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+80.42785792574927
+ 20
+-52.20854811567268
+ 40
+2
+100
+AcDbArc
+ 50
+360
+ 51
+59.99999999999993
+  0
+CIRCLE
+  5
+13D
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+21
+ 20
+-1.732050807568881
+ 40
+1
+  0
+LINE
+  5
+13E
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11
+ 20
+-1.732050807568882
+ 11
+11
+ 21
+-3.464101615137736
+  0
+LINE
+  5
+13F
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+16.49999999999999
+ 20
+-12.99038105676656
+ 11
+81.42785792574927
+ 21
+-50.47649730810381
+  0
+ARC
+  5
+140
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+22
+ 20
+-3.464101615137745
+ 40
+11
+100
+AcDbArc
+ 50
+180
+ 51
+239.9999999999999
+  0
+LINE
+  5
+141
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+42.76313259260967
+ 20
+-7.368798038046116
+ 11
+111.4278579257493
+ 21
+-47.01239569296611
+  0
+ARC
+  5
+142
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+41.76313259260967
+ 20
+-9.100848845614989
+ 40
+2
+100
+AcDbArc
+ 50
+59.99999999999988
+ 51
+129.5126848852771
+  0
+ARC
+  5
+143
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+21
+ 20
+-1.732049999999999
+ 40
+10
+100
+AcDbArc
+ 50
+42.15117199798748
+ 51
+180
+  0
+ARC
+  5
+144
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+38.58188740771269
+ 20
+-5.243430139592809
+ 40
+3
+100
+AcDbArc
+ 50
+164.5405915180141
+ 51
+309.5126848852772
+  0
+LINE
+  5
+145
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+28.4137677732664
+ 20
+4.978840209508471
+ 11
+35.24554327286918
+ 21
+-2.568473999474208
+  0
+ARC
+  5
+146
+100
+AcDbEntity
+  8
+9901-225 wheelbase deployed
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+33.7627897182159
+ 20
+-3.910652041375903
+ 40
+2
+100
+AcDbArc
+ 50
+344.540591518014
+ 51
+42.15117169780724
+  0
+LINE
+  5
+147
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-8
+ 20
+25.00000000000002
+ 11
+-7.999999999999964
+ 21
+60.00000000000001
+  0
+LINE
+  5
+148
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8
+ 20
+24.99999999999999
+ 11
+8.000000000000036
+ 21
+59.99999999999997
+  0
+LINE
+  5
+149
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8
+ 20
+24.99999999999999
+ 11
+-8
+ 21
+25.00000000000002
+  0
+LINE
+  5
+14A
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-7.999999999999964
+ 20
+60.00000000000001
+ 11
+8.000000000000036
+ 21
+59.99999999999997
+  0
+LWPOLYLINE
+  5
+14B
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+-6
+ 20
+70
+ 10
+6
+ 20
+70
+ 10
+6
+ 20
+93
+ 10
+-6
+ 20
+93
+  0
+CIRCLE
+  5
+14C
+100
+AcDbEntity
+  8
+0-quad 190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 40
+95
+  0
+LINE
+  5
+14D
+100
+AcDbEntity
+  8
+0-quad 190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-100
+ 20
+100
+ 11
+100
+ 21
+-100
+  0
+LINE
+  5
+14E
+100
+AcDbEntity
+  8
+0-quad 190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+100
+ 20
+100
+ 11
+-100
+ 21
+-100
+  0
+CIRCLE
+  5
+14F
+100
+AcDbEntity
+  8
+0-quad 190 wheelbase
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbCircle
+ 10
+67.17514421272202
+ 20
+67.17514421272202
+ 40
+63.5
+  0
+CIRCLE
+  5
+150
+100
+AcDbEntity
+  8
+0-quad 190 wheelbase
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbCircle
+ 10
+-67.17514421272202
+ 20
+67.17514421272202
+ 40
+63.5
+  0
+CIRCLE
+  5
+151
+100
+AcDbEntity
+  8
+0-quad 190 wheelbase
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbCircle
+ 10
+-67.17514421272202
+ 20
+-67.17514421272202
+ 40
+63.5
+  0
+CIRCLE
+  5
+152
+100
+AcDbEntity
+  8
+0-quad 190 wheelbase
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbCircle
+ 10
+67.17514421272202
+ 20
+-67.17514421272202
+ 40
+63.5
+  0
+LINE
+  5
+153
+100
+AcDbEntity
+  8
+0-quad 190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-22.27386360737625
+ 20
+22.27386360737625
+ 11
+22.27386360737625
+ 21
+22.27386360737625
+  0
+LINE
+  5
+154
+100
+AcDbEntity
+  8
+0-quad 190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+22.27386360737625
+ 20
+22.27386360737625
+ 11
+22.27386360737625
+ 21
+-22.27386360737625
+  0
+LINE
+  5
+155
+100
+AcDbEntity
+  8
+0-quad 190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+22.27386360737625
+ 20
+-22.27386360737625
+ 11
+-22.27386360737625
+ 21
+-22.27386360737625
+  0
+LINE
+  5
+156
+100
+AcDbEntity
+  8
+0-quad 190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-22.27386360737625
+ 20
+-22.27386360737625
+ 11
+-22.27386360737625
+ 21
+22.27386360737625
+  0
+CIRCLE
+  5
+157
+100
+AcDbEntity
+  8
+0-190 wheelbase
+  6
+ByLayer
+ 62
+    1
+370
+   -1
+100
+AcDbCircle
+ 10
+82.27241335952165
+ 20
+-47.50000000000005
+ 40
+63.5
+  0
+LINE
+  5
+158
+100
+AcDbEntity
+  8
+0-190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-18.00000000000002
+ 20
+31.49999999999998
+ 11
+18.00000000000002
+ 21
+31.49999999999996
+  0
+LINE
+  5
+159
+100
+AcDbEntity
+  8
+0-190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-18.00000000000002
+ 20
+31.49999999999998
+ 11
+-18
+ 21
+-59.60769515458673
+  0
+LINE
+  5
+15A
+100
+AcDbEntity
+  8
+0-190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+18.00000000000002
+ 20
+31.49999999999996
+ 11
+18
+ 21
+-59.60769346706793
+  0
+LINE
+  5
+15B
+100
+AcDbEntity
+  8
+0-190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+18
+ 20
+-59.60769346706793
+ 11
+1.332267629550188e-015
+ 21
+-70
+  0
+LINE
+  5
+15C
+100
+AcDbEntity
+  8
+0-190 wheelbase
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-18
+ 20
+-59.60769515458673
+ 11
+1.332267629550188e-015
+ 21
+-70
+  0
+LINE
+  5
+15D
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+33
+ 20
+-80.94744111674234
+ 11
+-3.083644450896372e-014
+ 21
+-99.99999999999999
+  0
+LINE
+  5
+15E
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-33.00000000000001
+ 20
+30.94744111674235
+ 11
+-33
+ 21
+-80.9474411167423
+  0
+LINE
+  5
+15F
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-33
+ 20
+-80.9474411167423
+ 11
+-3.083644450896372e-014
+ 21
+-99.99999999999999
+  0
+LINE
+  5
+160
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-15
+ 20
+41.33974596215562
+ 11
+-33.00000000000001
+ 21
+30.94744111674235
+  0
+LINE
+  5
+161
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-15
+ 20
+41.33974596215562
+ 11
+-15
+ 21
+200
+  0
+LINE
+  5
+162
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+33.00000000000001
+ 20
+23.38119784648298
+ 11
+33
+ 21
+-80.94744111674234
+  0
+LINE
+  5
+163
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+15
+ 20
+33.77350269189625
+ 11
+15
+ 21
+200
+  0
+LINE
+  5
+164
+100
+AcDbEntity
+  8
+9900-225 wheelbase baseline
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+15
+ 20
+33.77350269189625
+ 11
+33.00000000000001
+ 21
+23.38119784648298
   0
 ENDSEC
   0
