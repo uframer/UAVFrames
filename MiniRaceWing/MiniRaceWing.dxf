@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--30.5
+-500
  20
-2.842170943040401e-014
+-420.0000000000002
  30
 0
   9
 $EXTMAX
  10
-30.5
+500
  20
-252
+251.75
  30
 0
   9
@@ -775,9 +775,9 @@ $MAXACTVP
   9
 $PINSBASE
  10
-105
+115.8282534138334
  20
-147.875
+-44.16508468352359
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-95.10094636859223
+36.10417144755201
  22
-149.7985765652519
+129.5502622529807
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-227.2504209237219
+100.9609862198513
  41
-1.658536585365854
+1.330097087378641
  42
 50
  43
@@ -2257,7 +2257,7 @@ AcDbLayerTableRecord
   2
 fuselage-bottom plate
  70
-    4
+    5
  62
     1
   6
@@ -2277,11 +2277,11 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-fuselage-camera plate
+fuselage-camera cover
  70
-    4
+    5
  62
-    2
+    7
   6
 CONTINUOUS
 370
@@ -2299,11 +2299,77 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-fuselage-top plate
+fuselage-camera mount
+ 70
+    5
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+4D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+fuselage-camera plate
  70
     4
  62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+4E
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+fuselage-top plate
+ 70
+    5
+ 62
     4
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+4F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+fuselage-tube clip
+ 70
+    5
+ 62
+    7
   6
 CONTINUOUS
 370
@@ -2327,7 +2393,7 @@ AcDbSymbolTable
   0
 STYLE
   5
-4D
+50
 330
 2
 100
@@ -2411,7 +2477,7 @@ ACAD
   0
 APPID
   5
-4E
+51
 330
 9
 100
@@ -2443,7 +2509,7 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-4F
+52
 330
 A
 100
@@ -2717,7 +2783,7 @@ ENTITIES
   0
 LINE
   5
-50
+53
 100
 AcDbEntity
   8
@@ -2741,7 +2807,7 @@ AcDbLine
   0
 LINE
   5
-51
+54
 100
 AcDbEntity
   8
@@ -2765,7 +2831,7 @@ AcDbLine
   0
 LINE
   5
-52
+55
 100
 AcDbEntity
   8
@@ -2789,7 +2855,7 @@ AcDbLine
   0
 LINE
   5
-53
+56
 100
 AcDbEntity
   8
@@ -2813,7 +2879,7 @@ AcDbLine
   0
 LINE
   5
-54
+57
 100
 AcDbEntity
   8
@@ -2837,7 +2903,7 @@ AcDbLine
   0
 LINE
   5
-55
+58
 100
 AcDbEntity
   8
@@ -2861,7 +2927,7 @@ AcDbLine
   0
 LINE
   5
-56
+59
 100
 AcDbEntity
   8
@@ -2885,7 +2951,7 @@ AcDbLine
   0
 LINE
   5
-57
+5A
 100
 AcDbEntity
   8
@@ -2909,7 +2975,7 @@ AcDbLine
   0
 LINE
   5
-58
+5B
 100
 AcDbEntity
   8
@@ -2933,7 +2999,7 @@ AcDbLine
   0
 LINE
   5
-59
+5C
 100
 AcDbEntity
   8
@@ -2957,7 +3023,7 @@ AcDbLine
   0
 CIRCLE
   5
-5A
+5D
 100
 AcDbEntity
   8
@@ -2979,7 +3045,7 @@ AcDbCircle
   0
 CIRCLE
   5
-5B
+5E
 100
 AcDbEntity
   8
@@ -3001,7 +3067,7 @@ AcDbCircle
   0
 CIRCLE
   5
-5C
+5F
 100
 AcDbEntity
   8
@@ -3023,7 +3089,7 @@ AcDbCircle
   0
 ARC
   5
-5D
+60
 100
 AcDbEntity
   8
@@ -3051,7 +3117,7 @@ AcDbArc
   0
 LINE
   5
-5E
+61
 100
 AcDbEntity
   8
@@ -3075,7 +3141,7 @@ AcDbLine
   0
 ARC
   5
-5F
+62
 100
 AcDbEntity
   8
@@ -3103,82 +3169,6 @@ AcDbArc
   0
 LINE
   5
-60
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--12.5
- 20
-182
- 11
--12.5
- 21
-142
-  0
-ARC
-  5
-61
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--11
- 20
-182
- 40
-1.5
-100
-AcDbArc
- 50
-90
- 51
-179.9999999999997
-  0
-LINE
-  5
-62
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--11
- 20
-183.5
- 11
--11
- 21
-183.5
-  0
-LINE
-  5
 63
 100
 AcDbEntity
@@ -3193,11 +3183,11 @@ ByLayer
 100
 AcDbLine
  10
--9.5
+-12.5
  20
 182
  11
--9.5
+-12.5
  21
 142
   0
@@ -3225,13 +3215,89 @@ AcDbCircle
 100
 AcDbArc
  50
+90
+ 51
+179.9999999999997
+  0
+LINE
+  5
+65
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-11
+ 20
+183.5
+ 11
+-11
+ 21
+183.5
+  0
+LINE
+  5
+66
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-9.5
+ 20
+182
+ 11
+-9.5
+ 21
+142
+  0
+ARC
+  5
+67
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-11
+ 20
+182
+ 40
+1.5
+100
+AcDbArc
+ 50
 0
  51
 90
   0
 ARC
   5
-65
+68
 100
 AcDbEntity
   8
@@ -3259,7 +3325,7 @@ AcDbArc
   0
 LINE
   5
-66
+69
 100
 AcDbEntity
   8
@@ -3283,7 +3349,7 @@ AcDbLine
   0
 ARC
   5
-67
+6A
 100
 AcDbEntity
   8
@@ -3311,82 +3377,6 @@ AcDbArc
   0
 LINE
   5
-68
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-9.5
- 20
-182
- 11
-9.5
- 21
-142
-  0
-ARC
-  5
-69
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-11
- 20
-142
- 40
-1.5
-100
-AcDbArc
- 50
-180
- 51
-270
-  0
-LINE
-  5
-6A
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-12.5
- 20
-182
- 11
-12.5
- 21
-142
-  0
-LINE
-  5
 6B
 100
 AcDbEntity
@@ -3401,13 +3391,13 @@ ByLayer
 100
 AcDbLine
  10
-11
+9.5
  20
-140.5
+182
  11
-11
+9.5
  21
-140.5
+142
   0
 ARC
   5
@@ -3433,13 +3423,89 @@ AcDbCircle
 100
 AcDbArc
  50
+180
+ 51
+270
+  0
+LINE
+  5
+6D
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+12.5
+ 20
+182
+ 11
+12.5
+ 21
+142
+  0
+LINE
+  5
+6E
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11
+ 20
+140.5
+ 11
+11
+ 21
+140.5
+  0
+ARC
+  5
+6F
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+11
+ 20
+142
+ 40
+1.5
+100
+AcDbArc
+ 50
 270
  51
 0
   0
 ARC
   5
-6D
+70
 100
 AcDbEntity
   8
@@ -3467,7 +3533,7 @@ AcDbArc
   0
 LINE
   5
-6E
+71
 100
 AcDbEntity
   8
@@ -3491,7 +3557,7 @@ AcDbLine
   0
 ARC
   5
-6F
+72
 100
 AcDbEntity
   8
@@ -3519,82 +3585,6 @@ AcDbArc
   0
 LINE
   5
-70
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--12.5
- 20
-122
- 11
--12.5
- 21
-82
-  0
-ARC
-  5
-71
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--11
- 20
-122
- 40
-1.5
-100
-AcDbArc
- 50
-90
- 51
-179.9999999999997
-  0
-LINE
-  5
-72
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--11
- 20
-123.5
- 11
--11
- 21
-123.5
-  0
-LINE
-  5
 73
 100
 AcDbEntity
@@ -3609,11 +3599,11 @@ ByLayer
 100
 AcDbLine
  10
--9.5
+-12.5
  20
 122
  11
--9.5
+-12.5
  21
 82
   0
@@ -3641,13 +3631,89 @@ AcDbCircle
 100
 AcDbArc
  50
+90
+ 51
+179.9999999999997
+  0
+LINE
+  5
+75
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-11
+ 20
+123.5
+ 11
+-11
+ 21
+123.5
+  0
+LINE
+  5
+76
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-9.5
+ 20
+122
+ 11
+-9.5
+ 21
+82
+  0
+ARC
+  5
+77
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-11
+ 20
+122
+ 40
+1.5
+100
+AcDbArc
+ 50
 0
  51
 90
   0
 ARC
   5
-75
+78
 100
 AcDbEntity
   8
@@ -3675,7 +3741,7 @@ AcDbArc
   0
 LINE
   5
-76
+79
 100
 AcDbEntity
   8
@@ -3699,7 +3765,7 @@ AcDbLine
   0
 ARC
   5
-77
+7A
 100
 AcDbEntity
   8
@@ -3727,82 +3793,6 @@ AcDbArc
   0
 LINE
   5
-78
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-9.5
- 20
-122
- 11
-9.5
- 21
-82
-  0
-ARC
-  5
-79
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-11
- 20
-82
- 40
-1.5
-100
-AcDbArc
- 50
-180
- 51
-270
-  0
-LINE
-  5
-7A
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-12.5
- 20
-122
- 11
-12.5
- 21
-82
-  0
-LINE
-  5
 7B
 100
 AcDbEntity
@@ -3817,13 +3807,13 @@ ByLayer
 100
 AcDbLine
  10
-11
+9.5
  20
-80.5
+122
  11
-11
+9.5
  21
-80.5
+82
   0
 ARC
   5
@@ -3849,13 +3839,89 @@ AcDbCircle
 100
 AcDbArc
  50
+180
+ 51
+270
+  0
+LINE
+  5
+7D
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+12.5
+ 20
+122
+ 11
+12.5
+ 21
+82
+  0
+LINE
+  5
+7E
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11
+ 20
+80.5
+ 11
+11
+ 21
+80.5
+  0
+ARC
+  5
+7F
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+11
+ 20
+82
+ 40
+1.5
+100
+AcDbArc
+ 50
 270
  51
 0
   0
 ARC
   5
-7D
+80
 100
 AcDbEntity
   8
@@ -3883,7 +3949,7 @@ AcDbArc
   0
 LINE
   5
-7E
+81
 100
 AcDbEntity
   8
@@ -3907,7 +3973,7 @@ AcDbLine
   0
 ARC
   5
-7F
+82
 100
 AcDbEntity
   8
@@ -3935,7 +4001,7 @@ AcDbArc
   0
 LINE
   5
-80
+83
 100
 AcDbEntity
   8
@@ -3959,7 +4025,7 @@ AcDbLine
   0
 LINE
   5
-81
+84
 100
 AcDbEntity
   8
@@ -3983,7 +4049,7 @@ AcDbLine
   0
 ARC
   5
-82
+85
 100
 AcDbEntity
   8
@@ -4011,7 +4077,7 @@ AcDbArc
   0
 ARC
   5
-83
+86
 100
 AcDbEntity
   8
@@ -4039,7 +4105,7 @@ AcDbArc
   0
 ARC
   5
-84
+87
 100
 AcDbEntity
   8
@@ -4067,7 +4133,7 @@ AcDbArc
   0
 LINE
   5
-85
+88
 100
 AcDbEntity
   8
@@ -4091,7 +4157,7 @@ AcDbLine
   0
 ARC
   5
-86
+89
 100
 AcDbEntity
   8
@@ -4119,7 +4185,7 @@ AcDbArc
   0
 LINE
   5
-87
+8A
 100
 AcDbEntity
   8
@@ -4143,7 +4209,7 @@ AcDbLine
   0
 LINE
   5
-88
+8B
 100
 AcDbEntity
   8
@@ -4167,7 +4233,7 @@ AcDbLine
   0
 ARC
   5
-89
+8C
 100
 AcDbEntity
   8
@@ -4195,7 +4261,7 @@ AcDbArc
   0
 ARC
   5
-8A
+8D
 100
 AcDbEntity
   8
@@ -4223,72 +4289,6 @@ AcDbArc
   0
 CIRCLE
   5
-8B
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-17.5
- 20
-182
- 40
-1.5
-  0
-CIRCLE
-  5
-8C
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-17.5
- 20
-142
- 40
-1.5
-  0
-CIRCLE
-  5
-8D
-100
-AcDbEntity
-  8
-fuselage-bottom plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-17.5
- 20
-162
- 40
-1.5
-  0
-CIRCLE
-  5
 8E
 100
 AcDbEntity
@@ -4305,7 +4305,7 @@ AcDbCircle
  10
 17.5
  20
-172
+182
  40
 1.5
   0
@@ -4327,7 +4327,7 @@ AcDbCircle
  10
 17.5
  20
-152
+142
  40
 1.5
   0
@@ -4349,7 +4349,7 @@ AcDbCircle
  10
 17.5
  20
-122
+162
  40
 1.5
   0
@@ -4371,7 +4371,7 @@ AcDbCircle
  10
 17.5
  20
-82
+172
  40
 1.5
   0
@@ -4393,7 +4393,7 @@ AcDbCircle
  10
 17.5
  20
-102
+152
  40
 1.5
   0
@@ -4415,7 +4415,7 @@ AcDbCircle
  10
 17.5
  20
-112
+122
  40
 1.5
   0
@@ -4437,7 +4437,7 @@ AcDbCircle
  10
 17.5
  20
-92
+82
  40
 1.5
   0
@@ -4459,7 +4459,7 @@ AcDbCircle
  10
 17.5
  20
-132
+102
  40
 1.5
   0
@@ -4481,7 +4481,7 @@ AcDbCircle
  10
 17.5
  20
-62
+112
  40
 1.5
   0
@@ -4503,7 +4503,7 @@ AcDbCircle
  10
 17.5
  20
-32
+92
  40
 1.5
   0
@@ -4525,7 +4525,7 @@ AcDbCircle
  10
 17.5
  20
-52
+132
  40
 1.5
   0
@@ -4547,7 +4547,7 @@ AcDbCircle
  10
 17.5
  20
-42
+62
  40
 1.5
   0
@@ -4569,7 +4569,7 @@ AcDbCircle
  10
 17.5
  20
-72
+32
  40
 1.5
   0
@@ -4589,9 +4589,9 @@ ByLayer
 100
 AcDbCircle
  10
--17.5
+17.5
  20
-182
+52
  40
 1.5
   0
@@ -4611,9 +4611,9 @@ ByLayer
 100
 AcDbCircle
  10
--17.5
+17.5
  20
-142
+42
  40
 1.5
   0
@@ -4633,9 +4633,9 @@ ByLayer
 100
 AcDbCircle
  10
--17.5
+17.5
  20
-162
+72
  40
 1.5
   0
@@ -4657,7 +4657,7 @@ AcDbCircle
  10
 -17.5
  20
-172
+182
  40
 1.5
   0
@@ -4679,7 +4679,7 @@ AcDbCircle
  10
 -17.5
  20
-152
+142
  40
 1.5
   0
@@ -4701,7 +4701,7 @@ AcDbCircle
  10
 -17.5
  20
-122
+162
  40
 1.5
   0
@@ -4723,7 +4723,7 @@ AcDbCircle
  10
 -17.5
  20
-82
+172
  40
 1.5
   0
@@ -4745,7 +4745,7 @@ AcDbCircle
  10
 -17.5
  20
-102
+152
  40
 1.5
   0
@@ -4767,7 +4767,7 @@ AcDbCircle
  10
 -17.5
  20
-112
+122
  40
 1.5
   0
@@ -4789,7 +4789,7 @@ AcDbCircle
  10
 -17.5
  20
-92
+82
  40
 1.5
   0
@@ -4811,7 +4811,7 @@ AcDbCircle
  10
 -17.5
  20
-132
+102
  40
 1.5
   0
@@ -4833,7 +4833,7 @@ AcDbCircle
  10
 -17.5
  20
-62
+112
  40
 1.5
   0
@@ -4855,7 +4855,7 @@ AcDbCircle
  10
 -17.5
  20
-32
+92
  40
 1.5
   0
@@ -4877,7 +4877,7 @@ AcDbCircle
  10
 -17.5
  20
-52
+132
  40
 1.5
   0
@@ -4899,7 +4899,7 @@ AcDbCircle
  10
 -17.5
  20
-42
+62
  40
 1.5
   0
@@ -4921,13 +4921,79 @@ AcDbCircle
  10
 -17.5
  20
-72
+32
  40
 1.5
   0
 CIRCLE
   5
 AB
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-17.5
+ 20
+52
+ 40
+1.5
+  0
+CIRCLE
+  5
+AC
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-17.5
+ 20
+42
+ 40
+1.5
+  0
+CIRCLE
+  5
+AD
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-17.5
+ 20
+72
+ 40
+1.5
+  0
+CIRCLE
+  5
+AE
 100
 AcDbEntity
   8
@@ -4949,7 +5015,7 @@ AcDbCircle
   0
 CIRCLE
   5
-AC
+AF
 100
 AcDbEntity
   8
@@ -4971,7 +5037,7 @@ AcDbCircle
   0
 CIRCLE
   5
-AD
+B0
 100
 AcDbEntity
   8
@@ -4993,7 +5059,7 @@ AcDbCircle
   0
 CIRCLE
   5
-AE
+B1
 100
 AcDbEntity
   8
@@ -5015,7 +5081,7 @@ AcDbCircle
   0
 CIRCLE
   5
-AF
+B2
 100
 AcDbEntity
   8
@@ -5037,7 +5103,7 @@ AcDbCircle
   0
 CIRCLE
   5
-B0
+B3
 100
 AcDbEntity
   8
@@ -5059,7 +5125,7 @@ AcDbCircle
   0
 ARC
   5
-B1
+B4
 100
 AcDbEntity
   8
@@ -5087,7 +5153,7 @@ AcDbArc
   0
 ARC
   5
-B2
+B5
 100
 AcDbEntity
   8
@@ -5115,7 +5181,7 @@ AcDbArc
   0
 LINE
   5
-B3
+B6
 100
 AcDbEntity
   8
@@ -5139,7 +5205,7 @@ AcDbLine
   0
 ARC
   5
-B4
+B7
 100
 AcDbEntity
   8
@@ -5167,7 +5233,7 @@ AcDbArc
   0
 ARC
   5
-B5
+B8
 100
 AcDbEntity
   8
@@ -5195,7 +5261,7 @@ AcDbArc
   0
 LINE
   5
-B6
+B9
 100
 AcDbEntity
   8
@@ -5219,7 +5285,7 @@ AcDbLine
   0
 LINE
   5
-B7
+BA
 100
 AcDbEntity
   8
@@ -5243,7 +5309,7 @@ AcDbLine
   0
 LINE
   5
-B8
+BB
 100
 AcDbEntity
   8
@@ -5267,7 +5333,7 @@ AcDbLine
   0
 ARC
   5
-B9
+BC
 100
 AcDbEntity
   8
@@ -5295,7 +5361,7 @@ AcDbArc
   0
 ARC
   5
-BA
+BD
 100
 AcDbEntity
   8
@@ -5323,7 +5389,7 @@ AcDbArc
   0
 LINE
   5
-BB
+BE
 100
 AcDbEntity
   8
@@ -5347,7 +5413,7 @@ AcDbLine
   0
 ARC
   5
-BC
+BF
 100
 AcDbEntity
   8
@@ -5375,7 +5441,7 @@ AcDbArc
   0
 ARC
   5
-BD
+C0
 100
 AcDbEntity
   8
@@ -5403,7 +5469,7 @@ AcDbArc
   0
 LINE
   5
-BE
+C1
 100
 AcDbEntity
   8
@@ -5427,7 +5493,7 @@ AcDbLine
   0
 LINE
   5
-BF
+C2
 100
 AcDbEntity
   8
@@ -5451,7 +5517,7 @@ AcDbLine
   0
 LINE
   5
-C0
+C3
 100
 AcDbEntity
   8
@@ -5475,7 +5541,7 @@ AcDbLine
   0
 ARC
   5
-C1
+C4
 100
 AcDbEntity
   8
@@ -5503,7 +5569,7 @@ AcDbArc
   0
 ARC
   5
-C2
+C5
 100
 AcDbEntity
   8
@@ -5531,7 +5597,7 @@ AcDbArc
   0
 LINE
   5
-C3
+C6
 100
 AcDbEntity
   8
@@ -5555,7 +5621,7 @@ AcDbLine
   0
 ARC
   5
-C4
+C7
 100
 AcDbEntity
   8
@@ -5583,7 +5649,7 @@ AcDbArc
   0
 ARC
   5
-C5
+C8
 100
 AcDbEntity
   8
@@ -5611,7 +5677,7 @@ AcDbArc
   0
 LINE
   5
-C6
+C9
 100
 AcDbEntity
   8
@@ -5635,7 +5701,7 @@ AcDbLine
   0
 LINE
   5
-C7
+CA
 100
 AcDbEntity
   8
@@ -5659,7 +5725,7 @@ AcDbLine
   0
 LINE
   5
-C8
+CB
 100
 AcDbEntity
   8
@@ -5683,7 +5749,7 @@ AcDbLine
   0
 LINE
   5
-C9
+CC
 100
 AcDbEntity
   8
@@ -5707,7 +5773,7 @@ AcDbLine
   0
 LINE
   5
-CA
+CD
 100
 AcDbEntity
   8
@@ -5731,7 +5797,7 @@ AcDbLine
   0
 LINE
   5
-CB
+CE
 100
 AcDbEntity
   8
@@ -5755,7 +5821,7 @@ AcDbLine
   0
 LINE
   5
-CC
+CF
 100
 AcDbEntity
   8
@@ -5779,7 +5845,7 @@ AcDbLine
   0
 LINE
   5
-CD
+D0
 100
 AcDbEntity
   8
@@ -5803,7 +5869,7 @@ AcDbLine
   0
 ARC
   5
-CE
+D1
 100
 AcDbEntity
   8
@@ -5831,7 +5897,7 @@ AcDbArc
   0
 ARC
   5
-CF
+D2
 100
 AcDbEntity
   8
@@ -5859,7 +5925,7 @@ AcDbArc
   0
 ARC
   5
-D0
+D3
 100
 AcDbEntity
   8
@@ -5887,7 +5953,7 @@ AcDbArc
   0
 ARC
   5
-D1
+D4
 100
 AcDbEntity
   8
@@ -5915,7 +5981,7 @@ AcDbArc
   0
 ARC
   5
-D2
+D5
 100
 AcDbEntity
   8
@@ -5943,7 +6009,7 @@ AcDbArc
   0
 ARC
   5
-D3
+D6
 100
 AcDbEntity
   8
@@ -5971,7 +6037,7 @@ AcDbArc
   0
 LINE
   5
-D4
+D7
 100
 AcDbEntity
   8
@@ -5995,7 +6061,7 @@ AcDbLine
   0
 LINE
   5
-D5
+D8
 100
 AcDbEntity
   8
@@ -6019,7 +6085,7 @@ AcDbLine
   0
 LINE
   5
-D6
+D9
 100
 AcDbEntity
   8
@@ -6043,7 +6109,7 @@ AcDbLine
   0
 LINE
   5
-D7
+DA
 100
 AcDbEntity
   8
@@ -6067,7 +6133,7 @@ AcDbLine
   0
 LINE
   5
-D8
+DB
 100
 AcDbEntity
   8
@@ -6091,7 +6157,7 @@ AcDbLine
   0
 LINE
   5
-D9
+DC
 100
 AcDbEntity
   8
@@ -6115,7 +6181,7 @@ AcDbLine
   0
 LINE
   5
-DA
+DD
 100
 AcDbEntity
   8
@@ -6139,7 +6205,7 @@ AcDbLine
   0
 LINE
   5
-DB
+DE
 100
 AcDbEntity
   8
@@ -6163,7 +6229,7 @@ AcDbLine
   0
 ARC
   5
-DC
+DF
 100
 AcDbEntity
   8
@@ -6191,7 +6257,7 @@ AcDbArc
   0
 ARC
   5
-DD
+E0
 100
 AcDbEntity
   8
@@ -6219,7 +6285,7 @@ AcDbArc
   0
 ARC
   5
-DE
+E1
 100
 AcDbEntity
   8
@@ -6247,7 +6313,7 @@ AcDbArc
   0
 ARC
   5
-DF
+E2
 100
 AcDbEntity
   8
@@ -6275,7 +6341,7 @@ AcDbArc
   0
 ARC
   5
-E0
+E3
 100
 AcDbEntity
   8
@@ -6303,7 +6369,7 @@ AcDbArc
   0
 ARC
   5
-E1
+E4
 100
 AcDbEntity
   8
@@ -6331,7 +6397,7 @@ AcDbArc
   0
 LINE
   5
-E2
+E5
 100
 AcDbEntity
   8
@@ -6355,7 +6421,7 @@ AcDbLine
   0
 LINE
   5
-E3
+E6
 100
 AcDbEntity
   8
@@ -6379,7 +6445,7 @@ AcDbLine
   0
 LINE
   5
-E4
+E7
 100
 AcDbEntity
   8
@@ -6403,7 +6469,7 @@ AcDbLine
   0
 CIRCLE
   5
-E5
+E8
 100
 AcDbEntity
   8
@@ -6425,7 +6491,7 @@ AcDbCircle
   0
 CIRCLE
   5
-E6
+E9
 100
 AcDbEntity
   8
@@ -6447,7 +6513,7 @@ AcDbCircle
   0
 ARC
   5
-E7
+EA
 100
 AcDbEntity
   8
@@ -6475,7 +6541,7 @@ AcDbArc
   0
 ARC
   5
-E8
+EB
 100
 AcDbEntity
   8
@@ -6503,7 +6569,7 @@ AcDbArc
   0
 LINE
   5
-E9
+EC
 100
 AcDbEntity
   8
@@ -6527,7 +6593,7 @@ AcDbLine
   0
 ARC
   5
-EA
+ED
 100
 AcDbEntity
   8
@@ -6555,7 +6621,7 @@ AcDbArc
   0
 LINE
   5
-EB
+EE
 100
 AcDbEntity
   8
@@ -6579,7 +6645,7 @@ AcDbLine
   0
 LINE
   5
-EC
+EF
 100
 AcDbEntity
   8
@@ -6603,7 +6669,7 @@ AcDbLine
   0
 ARC
   5
-ED
+F0
 100
 AcDbEntity
   8
@@ -6631,7 +6697,7 @@ AcDbArc
   0
 LINE
   5
-EE
+F1
 100
 AcDbEntity
   8
@@ -6655,7 +6721,7 @@ AcDbLine
   0
 LINE
   5
-EF
+F2
 100
 AcDbEntity
   8
@@ -6679,7 +6745,7 @@ AcDbLine
   0
 LINE
   5
-F0
+F3
 100
 AcDbEntity
   8
@@ -6703,7 +6769,7 @@ AcDbLine
   0
 ARC
   5
-F1
+F4
 100
 AcDbEntity
   8
@@ -6731,7 +6797,7 @@ AcDbArc
   0
 ARC
   5
-F2
+F5
 100
 AcDbEntity
   8
@@ -6759,7 +6825,7 @@ AcDbArc
   0
 LINE
   5
-F3
+F6
 100
 AcDbEntity
   8
@@ -6783,7 +6849,7 @@ AcDbLine
   0
 ARC
   5
-F4
+F7
 100
 AcDbEntity
   8
@@ -6811,7 +6877,7 @@ AcDbArc
   0
 ARC
   5
-F5
+F8
 100
 AcDbEntity
   8
@@ -6839,7 +6905,7 @@ AcDbArc
   0
 LINE
   5
-F6
+F9
 100
 AcDbEntity
   8
@@ -6863,7 +6929,7 @@ AcDbLine
   0
 LINE
   5
-F7
+FA
 100
 AcDbEntity
   8
@@ -6887,7 +6953,7 @@ AcDbLine
   0
 LINE
   5
-F8
+FB
 100
 AcDbEntity
   8
@@ -6911,7 +6977,7 @@ AcDbLine
   0
 ARC
   5
-F9
+FC
 100
 AcDbEntity
   8
@@ -6939,7 +7005,7 @@ AcDbArc
   0
 ARC
   5
-FA
+FD
 100
 AcDbEntity
   8
@@ -6967,7 +7033,7 @@ AcDbArc
   0
 LINE
   5
-FB
+FE
 100
 AcDbEntity
   8
@@ -6991,7 +7057,7 @@ AcDbLine
   0
 ARC
   5
-FC
+FF
 100
 AcDbEntity
   8
@@ -7019,7 +7085,7 @@ AcDbArc
   0
 ARC
   5
-FD
+100
 100
 AcDbEntity
   8
@@ -7047,7 +7113,7 @@ AcDbArc
   0
 ARC
   5
-FE
+101
 100
 AcDbEntity
   8
@@ -7075,7 +7141,7 @@ AcDbArc
   0
 ARC
   5
-FF
+102
 100
 AcDbEntity
   8
@@ -7103,7 +7169,7 @@ AcDbArc
   0
 ARC
   5
-100
+103
 100
 AcDbEntity
   8
@@ -7131,7 +7197,7 @@ AcDbArc
   0
 ARC
   5
-101
+104
 100
 AcDbEntity
   8
@@ -7159,7 +7225,7 @@ AcDbArc
   0
 LINE
   5
-102
+105
 100
 AcDbEntity
   8
@@ -7183,7 +7249,7 @@ AcDbLine
   0
 ARC
   5
-103
+106
 100
 AcDbEntity
   8
@@ -7211,7 +7277,7 @@ AcDbArc
   0
 LINE
   5
-104
+107
 100
 AcDbEntity
   8
@@ -7235,7 +7301,7 @@ AcDbLine
   0
 LINE
   5
-105
+108
 100
 AcDbEntity
   8
@@ -7259,7 +7325,7 @@ AcDbLine
   0
 ARC
   5
-106
+109
 100
 AcDbEntity
   8
@@ -7287,7 +7353,7 @@ AcDbArc
   0
 CIRCLE
   5
-107
+10A
 100
 AcDbEntity
   8
@@ -7309,7 +7375,7 @@ AcDbCircle
   0
 ARC
   5
-108
+10B
 100
 AcDbEntity
   8
@@ -7337,7 +7403,7 @@ AcDbArc
   0
 LINE
   5
-109
+10C
 100
 AcDbEntity
   8
@@ -7361,7 +7427,7 @@ AcDbLine
   0
 ARC
   5
-10A
+10D
 100
 AcDbEntity
   8
@@ -7389,82 +7455,6 @@ AcDbArc
   0
 LINE
   5
-10B
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--12.5
- 20
-182
- 11
--12.5
- 21
-142
-  0
-ARC
-  5
-10C
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--11
- 20
-182
- 40
-1.5
-100
-AcDbArc
- 50
-90
- 51
-179.9999999999997
-  0
-LINE
-  5
-10D
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--11
- 20
-183.5
- 11
--11
- 21
-183.5
-  0
-LINE
-  5
 10E
 100
 AcDbEntity
@@ -7479,11 +7469,11 @@ ByLayer
 100
 AcDbLine
  10
--9.5
+-12.5
  20
 182
  11
--9.5
+-12.5
  21
 142
   0
@@ -7511,13 +7501,89 @@ AcDbCircle
 100
 AcDbArc
  50
+90
+ 51
+179.9999999999997
+  0
+LINE
+  5
+110
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-11
+ 20
+183.5
+ 11
+-11
+ 21
+183.5
+  0
+LINE
+  5
+111
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-9.5
+ 20
+182
+ 11
+-9.5
+ 21
+142
+  0
+ARC
+  5
+112
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-11
+ 20
+182
+ 40
+1.5
+100
+AcDbArc
+ 50
 0
  51
 90
   0
 ARC
   5
-110
+113
 100
 AcDbEntity
   8
@@ -7545,7 +7611,7 @@ AcDbArc
   0
 LINE
   5
-111
+114
 100
 AcDbEntity
   8
@@ -7569,7 +7635,7 @@ AcDbLine
   0
 ARC
   5
-112
+115
 100
 AcDbEntity
   8
@@ -7597,82 +7663,6 @@ AcDbArc
   0
 LINE
   5
-113
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-9.5
- 20
-182
- 11
-9.5
- 21
-142
-  0
-ARC
-  5
-114
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-11
- 20
-142
- 40
-1.5
-100
-AcDbArc
- 50
-180
- 51
-270
-  0
-LINE
-  5
-115
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-12.5
- 20
-182
- 11
-12.5
- 21
-142
-  0
-LINE
-  5
 116
 100
 AcDbEntity
@@ -7687,13 +7677,13 @@ ByLayer
 100
 AcDbLine
  10
-11
+9.5
  20
-140.5
+182
  11
-11
+9.5
  21
-140.5
+142
   0
 ARC
   5
@@ -7719,13 +7709,89 @@ AcDbCircle
 100
 AcDbArc
  50
+180
+ 51
+270
+  0
+LINE
+  5
+118
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+12.5
+ 20
+182
+ 11
+12.5
+ 21
+142
+  0
+LINE
+  5
+119
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11
+ 20
+140.5
+ 11
+11
+ 21
+140.5
+  0
+ARC
+  5
+11A
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+11
+ 20
+142
+ 40
+1.5
+100
+AcDbArc
+ 50
 270
  51
 0
   0
 ARC
   5
-118
+11B
 100
 AcDbEntity
   8
@@ -7753,7 +7819,7 @@ AcDbArc
   0
 LINE
   5
-119
+11C
 100
 AcDbEntity
   8
@@ -7777,7 +7843,7 @@ AcDbLine
   0
 ARC
   5
-11A
+11D
 100
 AcDbEntity
   8
@@ -7805,82 +7871,6 @@ AcDbArc
   0
 LINE
   5
-11B
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--12.5
- 20
-122
- 11
--12.5
- 21
-82
-  0
-ARC
-  5
-11C
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--11
- 20
-122
- 40
-1.5
-100
-AcDbArc
- 50
-90
- 51
-179.9999999999997
-  0
-LINE
-  5
-11D
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--11
- 20
-123.5
- 11
--11
- 21
-123.5
-  0
-LINE
-  5
 11E
 100
 AcDbEntity
@@ -7895,11 +7885,11 @@ ByLayer
 100
 AcDbLine
  10
--9.5
+-12.5
  20
 122
  11
--9.5
+-12.5
  21
 82
   0
@@ -7927,13 +7917,89 @@ AcDbCircle
 100
 AcDbArc
  50
+90
+ 51
+179.9999999999997
+  0
+LINE
+  5
+120
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-11
+ 20
+123.5
+ 11
+-11
+ 21
+123.5
+  0
+LINE
+  5
+121
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-9.5
+ 20
+122
+ 11
+-9.5
+ 21
+82
+  0
+ARC
+  5
+122
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-11
+ 20
+122
+ 40
+1.5
+100
+AcDbArc
+ 50
 0
  51
 90
   0
 ARC
   5
-120
+123
 100
 AcDbEntity
   8
@@ -7961,7 +8027,7 @@ AcDbArc
   0
 LINE
   5
-121
+124
 100
 AcDbEntity
   8
@@ -7985,7 +8051,7 @@ AcDbLine
   0
 ARC
   5
-122
+125
 100
 AcDbEntity
   8
@@ -8013,82 +8079,6 @@ AcDbArc
   0
 LINE
   5
-123
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-9.5
- 20
-122
- 11
-9.5
- 21
-82
-  0
-ARC
-  5
-124
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-11
- 20
-82
- 40
-1.5
-100
-AcDbArc
- 50
-180
- 51
-270
-  0
-LINE
-  5
-125
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-12.5
- 20
-122
- 11
-12.5
- 21
-82
-  0
-LINE
-  5
 126
 100
 AcDbEntity
@@ -8103,13 +8093,13 @@ ByLayer
 100
 AcDbLine
  10
-11
+9.5
  20
-80.5
+122
  11
-11
+9.5
  21
-80.5
+82
   0
 ARC
   5
@@ -8135,13 +8125,89 @@ AcDbCircle
 100
 AcDbArc
  50
+180
+ 51
+270
+  0
+LINE
+  5
+128
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+12.5
+ 20
+122
+ 11
+12.5
+ 21
+82
+  0
+LINE
+  5
+129
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11
+ 20
+80.5
+ 11
+11
+ 21
+80.5
+  0
+ARC
+  5
+12A
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+11
+ 20
+82
+ 40
+1.5
+100
+AcDbArc
+ 50
 270
  51
 0
   0
 ARC
   5
-128
+12B
 100
 AcDbEntity
   8
@@ -8169,7 +8235,7 @@ AcDbArc
   0
 LINE
   5
-129
+12C
 100
 AcDbEntity
   8
@@ -8193,7 +8259,7 @@ AcDbLine
   0
 ARC
   5
-12A
+12D
 100
 AcDbEntity
   8
@@ -8221,7 +8287,7 @@ AcDbArc
   0
 LINE
   5
-12B
+12E
 100
 AcDbEntity
   8
@@ -8245,7 +8311,7 @@ AcDbLine
   0
 LINE
   5
-12C
+12F
 100
 AcDbEntity
   8
@@ -8269,7 +8335,7 @@ AcDbLine
   0
 ARC
   5
-12D
+130
 100
 AcDbEntity
   8
@@ -8297,7 +8363,7 @@ AcDbArc
   0
 ARC
   5
-12E
+131
 100
 AcDbEntity
   8
@@ -8325,7 +8391,7 @@ AcDbArc
   0
 ARC
   5
-12F
+132
 100
 AcDbEntity
   8
@@ -8353,7 +8419,7 @@ AcDbArc
   0
 LINE
   5
-130
+133
 100
 AcDbEntity
   8
@@ -8377,7 +8443,7 @@ AcDbLine
   0
 ARC
   5
-131
+134
 100
 AcDbEntity
   8
@@ -8405,7 +8471,7 @@ AcDbArc
   0
 LINE
   5
-132
+135
 100
 AcDbEntity
   8
@@ -8429,7 +8495,7 @@ AcDbLine
   0
 LINE
   5
-133
+136
 100
 AcDbEntity
   8
@@ -8453,7 +8519,7 @@ AcDbLine
   0
 ARC
   5
-134
+137
 100
 AcDbEntity
   8
@@ -8481,7 +8547,7 @@ AcDbArc
   0
 ARC
   5
-135
+138
 100
 AcDbEntity
   8
@@ -8509,72 +8575,6 @@ AcDbArc
   0
 CIRCLE
   5
-136
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-17.5
- 20
-182
- 40
-1.5
-  0
-CIRCLE
-  5
-137
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-17.5
- 20
-142
- 40
-1.5
-  0
-CIRCLE
-  5
-138
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-17.5
- 20
-122
- 40
-1.5
-  0
-CIRCLE
-  5
 139
 100
 AcDbEntity
@@ -8591,7 +8591,7 @@ AcDbCircle
  10
 17.5
  20
-82
+182
  40
 1.5
   0
@@ -8613,7 +8613,7 @@ AcDbCircle
  10
 17.5
  20
-132
+142
  40
 1.5
   0
@@ -8635,7 +8635,7 @@ AcDbCircle
  10
 17.5
  20
-62
+122
  40
 1.5
   0
@@ -8657,7 +8657,7 @@ AcDbCircle
  10
 17.5
  20
-32
+82
  40
 1.5
   0
@@ -8679,7 +8679,7 @@ AcDbCircle
  10
 17.5
  20
-72
+132
  40
 1.5
   0
@@ -8699,9 +8699,9 @@ ByLayer
 100
 AcDbCircle
  10
--17.5
+17.5
  20
-182
+62
  40
 1.5
   0
@@ -8721,9 +8721,9 @@ ByLayer
 100
 AcDbCircle
  10
--17.5
+17.5
  20
-142
+32
  40
 1.5
   0
@@ -8743,9 +8743,9 @@ ByLayer
 100
 AcDbCircle
  10
--17.5
+17.5
  20
-122
+72
  40
 1.5
   0
@@ -8767,7 +8767,7 @@ AcDbCircle
  10
 -17.5
  20
-82
+182
  40
 1.5
   0
@@ -8789,7 +8789,7 @@ AcDbCircle
  10
 -17.5
  20
-132
+142
  40
 1.5
   0
@@ -8811,7 +8811,7 @@ AcDbCircle
  10
 -17.5
  20
-62
+122
  40
 1.5
   0
@@ -8833,7 +8833,7 @@ AcDbCircle
  10
 -17.5
  20
-32
+82
  40
 1.5
   0
@@ -8855,13 +8855,79 @@ AcDbCircle
  10
 -17.5
  20
-72
+132
  40
 1.5
   0
 CIRCLE
   5
 146
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-17.5
+ 20
+62
+ 40
+1.5
+  0
+CIRCLE
+  5
+147
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-17.5
+ 20
+32
+ 40
+1.5
+  0
+CIRCLE
+  5
+148
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-17.5
+ 20
+72
+ 40
+1.5
+  0
+CIRCLE
+  5
+149
 100
 AcDbEntity
   8
@@ -8883,7 +8949,7 @@ AcDbCircle
   0
 CIRCLE
   5
-147
+14A
 100
 AcDbEntity
   8
@@ -8905,7 +8971,7 @@ AcDbCircle
   0
 CIRCLE
   5
-148
+14B
 100
 AcDbEntity
   8
@@ -8927,7 +8993,7 @@ AcDbCircle
   0
 CIRCLE
   5
-149
+14C
 100
 AcDbEntity
   8
@@ -8949,7 +9015,7 @@ AcDbCircle
   0
 ARC
   5
-14A
+14D
 100
 AcDbEntity
   8
@@ -8977,7 +9043,7 @@ AcDbArc
   0
 ARC
   5
-14B
+14E
 100
 AcDbEntity
   8
@@ -9005,7 +9071,7 @@ AcDbArc
   0
 LINE
   5
-14C
+14F
 100
 AcDbEntity
   8
@@ -9029,7 +9095,7 @@ AcDbLine
   0
 ARC
   5
-14D
+150
 100
 AcDbEntity
   8
@@ -9057,7 +9123,7 @@ AcDbArc
   0
 ARC
   5
-14E
+151
 100
 AcDbEntity
   8
@@ -9085,7 +9151,7 @@ AcDbArc
   0
 LINE
   5
-14F
+152
 100
 AcDbEntity
   8
@@ -9109,7 +9175,7 @@ AcDbLine
   0
 LINE
   5
-150
+153
 100
 AcDbEntity
   8
@@ -9133,7 +9199,7 @@ AcDbLine
   0
 LINE
   5
-151
+154
 100
 AcDbEntity
   8
@@ -9157,7 +9223,7 @@ AcDbLine
   0
 ARC
   5
-152
+155
 100
 AcDbEntity
   8
@@ -9185,7 +9251,7 @@ AcDbArc
   0
 ARC
   5
-153
+156
 100
 AcDbEntity
   8
@@ -9213,7 +9279,7 @@ AcDbArc
   0
 LINE
   5
-154
+157
 100
 AcDbEntity
   8
@@ -9237,7 +9303,7 @@ AcDbLine
   0
 ARC
   5
-155
+158
 100
 AcDbEntity
   8
@@ -9265,7 +9331,7 @@ AcDbArc
   0
 ARC
   5
-156
+159
 100
 AcDbEntity
   8
@@ -9293,7 +9359,7 @@ AcDbArc
   0
 LINE
   5
-157
+15A
 100
 AcDbEntity
   8
@@ -9317,7 +9383,7 @@ AcDbLine
   0
 LINE
   5
-158
+15B
 100
 AcDbEntity
   8
@@ -9341,7 +9407,7 @@ AcDbLine
   0
 LINE
   5
-159
+15C
 100
 AcDbEntity
   8
@@ -9365,7 +9431,7 @@ AcDbLine
   0
 ARC
   5
-15A
+15D
 100
 AcDbEntity
   8
@@ -9393,7 +9459,7 @@ AcDbArc
   0
 ARC
   5
-15B
+15E
 100
 AcDbEntity
   8
@@ -9421,7 +9487,7 @@ AcDbArc
   0
 LINE
   5
-15C
+15F
 100
 AcDbEntity
   8
@@ -9445,7 +9511,7 @@ AcDbLine
   0
 ARC
   5
-15D
+160
 100
 AcDbEntity
   8
@@ -9473,7 +9539,7 @@ AcDbArc
   0
 ARC
   5
-15E
+161
 100
 AcDbEntity
   8
@@ -9501,7 +9567,7 @@ AcDbArc
   0
 LINE
   5
-15F
+162
 100
 AcDbEntity
   8
@@ -9525,7 +9591,7 @@ AcDbLine
   0
 LINE
   5
-160
+163
 100
 AcDbEntity
   8
@@ -9549,7 +9615,7 @@ AcDbLine
   0
 LINE
   5
-161
+164
 100
 AcDbEntity
   8
@@ -9573,7 +9639,7 @@ AcDbLine
   0
 ARC
   5
-162
+165
 100
 AcDbEntity
   8
@@ -9601,7 +9667,7 @@ AcDbArc
   0
 LINE
   5
-163
+166
 100
 AcDbEntity
   8
@@ -9625,7 +9691,7 @@ AcDbLine
   0
 ARC
   5
-164
+167
 100
 AcDbEntity
   8
@@ -9653,7 +9719,7 @@ AcDbArc
   0
 LINE
   5
-165
+168
 100
 AcDbEntity
   8
@@ -9677,7 +9743,7 @@ AcDbLine
   0
 ARC
   5
-166
+169
 100
 AcDbEntity
   8
@@ -9705,7 +9771,7 @@ AcDbArc
   0
 ARC
   5
-167
+16A
 100
 AcDbEntity
   8
@@ -9733,7 +9799,7 @@ AcDbArc
   0
 ARC
   5
-168
+16B
 100
 AcDbEntity
   8
@@ -9761,7 +9827,7 @@ AcDbArc
   0
 LINE
   5
-169
+16C
 100
 AcDbEntity
   8
@@ -9785,7 +9851,7 @@ AcDbLine
   0
 ARC
   5
-16A
+16D
 100
 AcDbEntity
   8
@@ -9813,7 +9879,7 @@ AcDbArc
   0
 LINE
   5
-16B
+16E
 100
 AcDbEntity
   8
@@ -9837,7 +9903,7 @@ AcDbLine
   0
 ARC
   5
-16C
+16F
 100
 AcDbEntity
   8
@@ -9865,7 +9931,7 @@ AcDbArc
   0
 LINE
   5
-16D
+170
 100
 AcDbEntity
   8
@@ -9889,7 +9955,7 @@ AcDbLine
   0
 LINE
   5
-16E
+171
 100
 AcDbEntity
   8
@@ -9913,7 +9979,7 @@ AcDbLine
   0
 LINE
   5
-16F
+172
 100
 AcDbEntity
   8
@@ -9937,7 +10003,7 @@ AcDbLine
   0
 LINE
   5
-170
+173
 100
 AcDbEntity
   8
@@ -9961,7 +10027,7 @@ AcDbLine
   0
 LINE
   5
-171
+174
 100
 AcDbEntity
   8
@@ -9985,7 +10051,7 @@ AcDbLine
   0
 LINE
   5
-172
+175
 100
 AcDbEntity
   8
@@ -10009,7 +10075,7 @@ AcDbLine
   0
 LINE
   5
-173
+176
 100
 AcDbEntity
   8
@@ -10033,7 +10099,7 @@ AcDbLine
   0
 LINE
   5
-174
+177
 100
 AcDbEntity
   8
@@ -10057,7 +10123,7 @@ AcDbLine
   0
 LINE
   5
-175
+178
 100
 AcDbEntity
   8
@@ -10081,7 +10147,7 @@ AcDbLine
   0
 LINE
   5
-176
+179
 100
 AcDbEntity
   8
@@ -10105,7 +10171,7 @@ AcDbLine
   0
 LINE
   5
-177
+17A
 100
 AcDbEntity
   8
@@ -10129,7 +10195,7 @@ AcDbLine
   0
 LINE
   5
-178
+17B
 100
 AcDbEntity
   8
@@ -10153,7 +10219,7 @@ AcDbLine
   0
 LINE
   5
-179
+17C
 100
 AcDbEntity
   8
@@ -10177,7 +10243,7 @@ AcDbLine
   0
 ARC
   5
-17A
+17D
 100
 AcDbEntity
   8
@@ -10205,7 +10271,7 @@ AcDbArc
   0
 LINE
   5
-17B
+17E
 100
 AcDbEntity
   8
@@ -10229,7 +10295,7 @@ AcDbLine
   0
 LINE
   5
-17C
+17F
 100
 AcDbEntity
   8
@@ -10253,7 +10319,7 @@ AcDbLine
   0
 ARC
   5
-17D
+180
 100
 AcDbEntity
   8
@@ -10281,7 +10347,7 @@ AcDbArc
   0
 ARC
   5
-17E
+181
 100
 AcDbEntity
   8
@@ -10309,7 +10375,7 @@ AcDbArc
   0
 LINE
   5
-17F
+182
 100
 AcDbEntity
   8
@@ -10333,7 +10399,7 @@ AcDbLine
   0
 ARC
   5
-180
+183
 100
 AcDbEntity
   8
@@ -10358,82 +10424,6 @@ AcDbArc
 180
  51
 270
-  0
-LINE
-  5
-181
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--1
- 20
-164.5
- 11
-1
- 21
-164.5
-  0
-ARC
-  5
-182
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-1
- 20
-162.5
- 40
-2
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
-  5
-183
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3
- 20
-162.5
- 11
-3
- 21
-161.5
   0
 LINE
   5
@@ -10453,6 +10443,82 @@ AcDbLine
  10
 -1
  20
+164.5
+ 11
+1
+ 21
+164.5
+  0
+ARC
+  5
+185
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1
+ 20
+162.5
+ 40
+2
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+LINE
+  5
+186
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3
+ 20
+162.5
+ 11
+3
+ 21
+161.5
+  0
+LINE
+  5
+187
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-1
+ 20
 159.5
  11
 1
@@ -10461,7 +10527,7 @@ AcDbLine
   0
 ARC
   5
-185
+188
 100
 AcDbEntity
   8
@@ -10489,7 +10555,7 @@ AcDbArc
   0
 ARC
   5
-186
+189
 100
 AcDbEntity
   8
@@ -10517,7 +10583,7 @@ AcDbArc
   0
 LINE
   5
-187
+18A
 100
 AcDbEntity
   8
@@ -10541,7 +10607,7 @@ AcDbLine
   0
 ARC
   5
-188
+18B
 100
 AcDbEntity
   8
@@ -10566,82 +10632,6 @@ AcDbArc
 180
  51
 270
-  0
-LINE
-  5
-189
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--1
- 20
-179.5
- 11
-1
- 21
-179.5
-  0
-ARC
-  5
-18A
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-1
- 20
-177.5
- 40
-2
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
-  5
-18B
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3
- 20
-177.5
- 11
-3
- 21
-176.5
   0
 LINE
   5
@@ -10661,6 +10651,82 @@ AcDbLine
  10
 -1
  20
+179.5
+ 11
+1
+ 21
+179.5
+  0
+ARC
+  5
+18D
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1
+ 20
+177.5
+ 40
+2
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+LINE
+  5
+18E
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3
+ 20
+177.5
+ 11
+3
+ 21
+176.5
+  0
+LINE
+  5
+18F
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-1
+ 20
 174.5
  11
 1
@@ -10669,7 +10735,7 @@ AcDbLine
   0
 ARC
   5
-18D
+190
 100
 AcDbEntity
   8
@@ -10697,7 +10763,7 @@ AcDbArc
   0
 ARC
   5
-18E
+191
 100
 AcDbEntity
   8
@@ -10725,7 +10791,7 @@ AcDbArc
   0
 LINE
   5
-18F
+192
 100
 AcDbEntity
   8
@@ -10749,7 +10815,7 @@ AcDbLine
   0
 ARC
   5
-190
+193
 100
 AcDbEntity
   8
@@ -10774,82 +10840,6 @@ AcDbArc
 180
  51
 270
-  0
-LINE
-  5
-191
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--1
- 20
-149.5
- 11
-1
- 21
-149.5
-  0
-ARC
-  5
-192
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-1
- 20
-147.5
- 40
-2
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
-  5
-193
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3
- 20
-147.5
- 11
-3
- 21
-146.5
   0
 LINE
   5
@@ -10869,6 +10859,82 @@ AcDbLine
  10
 -1
  20
+149.5
+ 11
+1
+ 21
+149.5
+  0
+ARC
+  5
+195
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1
+ 20
+147.5
+ 40
+2
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+LINE
+  5
+196
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3
+ 20
+147.5
+ 11
+3
+ 21
+146.5
+  0
+LINE
+  5
+197
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-1
+ 20
 144.5
  11
 1
@@ -10877,7 +10943,7 @@ AcDbLine
   0
 ARC
   5
-195
+198
 100
 AcDbEntity
   8
@@ -10905,7 +10971,7 @@ AcDbArc
   0
 ARC
   5
-196
+199
 100
 AcDbEntity
   8
@@ -10933,7 +10999,7 @@ AcDbArc
   0
 LINE
   5
-197
+19A
 100
 AcDbEntity
   8
@@ -10957,7 +11023,7 @@ AcDbLine
   0
 ARC
   5
-198
+19B
 100
 AcDbEntity
   8
@@ -10982,82 +11048,6 @@ AcDbArc
 180
  51
 270
-  0
-LINE
-  5
-199
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--1
- 20
-104.5
- 11
-1
- 21
-104.5
-  0
-ARC
-  5
-19A
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-1
- 20
-102.5
- 40
-2
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
-  5
-19B
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3
- 20
-102.5
- 11
-3
- 21
-101.5
   0
 LINE
   5
@@ -11077,6 +11067,82 @@ AcDbLine
  10
 -1
  20
+104.5
+ 11
+1
+ 21
+104.5
+  0
+ARC
+  5
+19D
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1
+ 20
+102.5
+ 40
+2
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+LINE
+  5
+19E
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3
+ 20
+102.5
+ 11
+3
+ 21
+101.5
+  0
+LINE
+  5
+19F
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-1
+ 20
 99.5
  11
 1
@@ -11085,7 +11151,7 @@ AcDbLine
   0
 ARC
   5
-19D
+1A0
 100
 AcDbEntity
   8
@@ -11113,7 +11179,7 @@ AcDbArc
   0
 ARC
   5
-19E
+1A1
 100
 AcDbEntity
   8
@@ -11141,7 +11207,7 @@ AcDbArc
   0
 LINE
   5
-19F
+1A2
 100
 AcDbEntity
   8
@@ -11165,7 +11231,7 @@ AcDbLine
   0
 ARC
   5
-1A0
+1A3
 100
 AcDbEntity
   8
@@ -11190,82 +11256,6 @@ AcDbArc
 180
  51
 270
-  0
-LINE
-  5
-1A1
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--1
- 20
-119.5
- 11
-1
- 21
-119.5
-  0
-ARC
-  5
-1A2
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-1
- 20
-117.5
- 40
-2
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
-  5
-1A3
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3
- 20
-117.5
- 11
-3
- 21
-116.5
   0
 LINE
   5
@@ -11285,6 +11275,82 @@ AcDbLine
  10
 -1
  20
+119.5
+ 11
+1
+ 21
+119.5
+  0
+ARC
+  5
+1A5
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1
+ 20
+117.5
+ 40
+2
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+LINE
+  5
+1A6
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3
+ 20
+117.5
+ 11
+3
+ 21
+116.5
+  0
+LINE
+  5
+1A7
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-1
+ 20
 114.5
  11
 1
@@ -11293,7 +11359,7 @@ AcDbLine
   0
 ARC
   5
-1A5
+1A8
 100
 AcDbEntity
   8
@@ -11321,7 +11387,7 @@ AcDbArc
   0
 ARC
   5
-1A6
+1A9
 100
 AcDbEntity
   8
@@ -11349,7 +11415,7 @@ AcDbArc
   0
 LINE
   5
-1A7
+1AA
 100
 AcDbEntity
   8
@@ -11373,7 +11439,7 @@ AcDbLine
   0
 ARC
   5
-1A8
+1AB
 100
 AcDbEntity
   8
@@ -11398,82 +11464,6 @@ AcDbArc
 180
  51
 270
-  0
-LINE
-  5
-1A9
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--1
- 20
-89.5
- 11
-1
- 21
-89.5
-  0
-ARC
-  5
-1AA
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-1
- 20
-87.5
- 40
-2
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
-  5
-1AB
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3
- 20
-87.5
- 11
-3
- 21
-86.5
   0
 LINE
   5
@@ -11493,6 +11483,82 @@ AcDbLine
  10
 -1
  20
+89.5
+ 11
+1
+ 21
+89.5
+  0
+ARC
+  5
+1AD
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1
+ 20
+87.5
+ 40
+2
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+LINE
+  5
+1AE
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3
+ 20
+87.5
+ 11
+3
+ 21
+86.5
+  0
+LINE
+  5
+1AF
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-1
+ 20
 84.5
  11
 1
@@ -11501,7 +11567,7 @@ AcDbLine
   0
 ARC
   5
-1AD
+1B0
 100
 AcDbEntity
   8
@@ -11529,7 +11595,7 @@ AcDbArc
   0
 ARC
   5
-1AE
+1B1
 100
 AcDbEntity
   8
@@ -11557,7 +11623,7 @@ AcDbArc
   0
 LINE
   5
-1AF
+1B2
 100
 AcDbEntity
   8
@@ -11581,7 +11647,7 @@ AcDbLine
   0
 ARC
   5
-1B0
+1B3
 100
 AcDbEntity
   8
@@ -11606,82 +11672,6 @@ AcDbArc
 180
  51
 270
-  0
-LINE
-  5
-1B1
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--1
- 20
-134.5
- 11
-1
- 21
-134.5
-  0
-ARC
-  5
-1B2
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-1
- 20
-132.5
- 40
-2
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
-  5
-1B3
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3
- 20
-132.5
- 11
-3
- 21
-131.5
   0
 LINE
   5
@@ -11701,6 +11691,82 @@ AcDbLine
  10
 -1
  20
+134.5
+ 11
+1
+ 21
+134.5
+  0
+ARC
+  5
+1B5
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1
+ 20
+132.5
+ 40
+2
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+LINE
+  5
+1B6
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3
+ 20
+132.5
+ 11
+3
+ 21
+131.5
+  0
+LINE
+  5
+1B7
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-1
+ 20
 129.5
  11
 1
@@ -11709,7 +11775,7 @@ AcDbLine
   0
 ARC
   5
-1B5
+1B8
 100
 AcDbEntity
   8
@@ -11737,7 +11803,7 @@ AcDbArc
   0
 ARC
   5
-1B6
+1B9
 100
 AcDbEntity
   8
@@ -11765,7 +11831,7 @@ AcDbArc
   0
 LINE
   5
-1B7
+1BA
 100
 AcDbEntity
   8
@@ -11789,7 +11855,7 @@ AcDbLine
   0
 ARC
   5
-1B8
+1BB
 100
 AcDbEntity
   8
@@ -11814,82 +11880,6 @@ AcDbArc
 180
  51
 270
-  0
-LINE
-  5
-1B9
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--1
- 20
-74.5
- 11
-1
- 21
-74.5
-  0
-ARC
-  5
-1BA
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-1
- 20
-72.5
- 40
-2
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
-  5
-1BB
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3
- 20
-72.5
- 11
-3
- 21
-71.5
   0
 LINE
   5
@@ -11909,6 +11899,82 @@ AcDbLine
  10
 -1
  20
+74.5
+ 11
+1
+ 21
+74.5
+  0
+ARC
+  5
+1BD
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1
+ 20
+72.5
+ 40
+2
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+LINE
+  5
+1BE
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3
+ 20
+72.5
+ 11
+3
+ 21
+71.5
+  0
+LINE
+  5
+1BF
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-1
+ 20
 69.5
  11
 1
@@ -11917,7 +11983,7 @@ AcDbLine
   0
 ARC
   5
-1BD
+1C0
 100
 AcDbEntity
   8
@@ -11945,7 +12011,7 @@ AcDbArc
   0
 ARC
   5
-1BE
+1C1
 100
 AcDbEntity
   8
@@ -11973,7 +12039,7 @@ AcDbArc
   0
 LINE
   5
-1BF
+1C2
 100
 AcDbEntity
   8
@@ -11997,7 +12063,7 @@ AcDbLine
   0
 ARC
   5
-1C0
+1C3
 100
 AcDbEntity
   8
@@ -12022,82 +12088,6 @@ AcDbArc
 180
  51
 270
-  0
-LINE
-  5
-1C1
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--1
- 20
-59.5
- 11
-1
- 21
-59.5
-  0
-ARC
-  5
-1C2
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-1
- 20
-57.5
- 40
-2
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
-  5
-1C3
-100
-AcDbEntity
-  8
-fuselage-top plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3
- 20
-57.5
- 11
-3
- 21
-56.5
   0
 LINE
   5
@@ -12117,6 +12107,82 @@ AcDbLine
  10
 -1
  20
+59.5
+ 11
+1
+ 21
+59.5
+  0
+ARC
+  5
+1C5
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+1
+ 20
+57.5
+ 40
+2
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+LINE
+  5
+1C6
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3
+ 20
+57.5
+ 11
+3
+ 21
+56.5
+  0
+LINE
+  5
+1C7
+100
+AcDbEntity
+  8
+fuselage-top plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-1
+ 20
 54.5
  11
 1
@@ -12125,7 +12191,7 @@ AcDbLine
   0
 ARC
   5
-1C5
+1C8
 100
 AcDbEntity
   8
@@ -12153,7 +12219,7 @@ AcDbArc
   0
 ARC
   5
-1C6
+1C9
 100
 AcDbEntity
   8
@@ -12181,7 +12247,7 @@ AcDbArc
   0
 LINE
   5
-1C7
+1CA
 100
 AcDbEntity
   8
@@ -12205,7 +12271,7 @@ AcDbLine
   0
 ARC
   5
-1C8
+1CB
 100
 AcDbEntity
   8
@@ -12233,7 +12299,7 @@ AcDbArc
   0
 LINE
   5
-1C9
+1CC
 100
 AcDbEntity
   8
@@ -12257,7 +12323,7 @@ AcDbLine
   0
 ARC
   5
-1CA
+1CD
 100
 AcDbEntity
   8
@@ -12285,7 +12351,7 @@ AcDbArc
   0
 LINE
   5
-1CB
+1CE
 100
 AcDbEntity
   8
@@ -12309,7 +12375,7 @@ AcDbLine
   0
 LINE
   5
-1CC
+1CF
 100
 AcDbEntity
   8
@@ -12333,7 +12399,7 @@ AcDbLine
   0
 ARC
   5
-1CD
+1D0
 100
 AcDbEntity
   8
@@ -12361,7 +12427,7 @@ AcDbArc
   0
 CIRCLE
   5
-1CE
+1D1
 100
 AcDbEntity
   8
@@ -12383,7 +12449,7 @@ AcDbCircle
   0
 CIRCLE
   5
-1CF
+1D2
 100
 AcDbEntity
   8
@@ -12405,7 +12471,7 @@ AcDbCircle
   0
 CIRCLE
   5
-1D0
+1D3
 100
 AcDbEntity
   8
@@ -12427,7 +12493,7 @@ AcDbCircle
   0
 CIRCLE
   5
-1D1
+1D4
 100
 AcDbEntity
   8
@@ -12449,7 +12515,7 @@ AcDbCircle
   0
 CIRCLE
   5
-1D2
+1D5
 100
 AcDbEntity
   8
@@ -12471,7 +12537,7 @@ AcDbCircle
   0
 LINE
   5
-1D3
+1D6
 100
 AcDbEntity
   8
@@ -12495,7 +12561,7 @@ AcDbLine
   0
 LINE
   5
-1D4
+1D7
 100
 AcDbEntity
   8
@@ -12519,7 +12585,7 @@ AcDbLine
   0
 LINE
   5
-1D5
+1D8
 100
 AcDbEntity
   8
@@ -12543,7 +12609,7 @@ AcDbLine
   0
 LINE
   5
-1D6
+1D9
 100
 AcDbEntity
   8
@@ -12567,7 +12633,7 @@ AcDbLine
   0
 LINE
   5
-1D7
+1DA
 100
 AcDbEntity
   8
@@ -12591,7 +12657,7 @@ AcDbLine
   0
 ARC
   5
-1D8
+1DB
 100
 AcDbEntity
   8
@@ -12619,7 +12685,7 @@ AcDbArc
   0
 ARC
   5
-1D9
+1DC
 100
 AcDbEntity
   8
@@ -12647,7 +12713,7 @@ AcDbArc
   0
 ARC
   5
-1DA
+1DD
 100
 AcDbEntity
   8
@@ -12675,7 +12741,7 @@ AcDbArc
   0
 ARC
   5
-1DB
+1DE
 100
 AcDbEntity
   8
@@ -12703,7 +12769,7 @@ AcDbArc
   0
 ARC
   5
-1DC
+1DF
 100
 AcDbEntity
   8
@@ -12731,7 +12797,7 @@ AcDbArc
   0
 ARC
   5
-1DD
+1E0
 100
 AcDbEntity
   8
@@ -12759,7 +12825,7 @@ AcDbArc
   0
 LINE
   5
-1DE
+1E1
 100
 AcDbEntity
   8
@@ -12783,7 +12849,7 @@ AcDbLine
   0
 LINE
   5
-1DF
+1E2
 100
 AcDbEntity
   8
@@ -12807,7 +12873,7 @@ AcDbLine
   0
 LINE
   5
-1E0
+1E3
 100
 AcDbEntity
   8
@@ -12831,7 +12897,7 @@ AcDbLine
   0
 LINE
   5
-1E1
+1E4
 100
 AcDbEntity
   8
@@ -12855,7 +12921,7 @@ AcDbLine
   0
 LINE
   5
-1E2
+1E5
 100
 AcDbEntity
   8
@@ -12879,7 +12945,7 @@ AcDbLine
   0
 LINE
   5
-1E3
+1E6
 100
 AcDbEntity
   8
@@ -12903,7 +12969,7 @@ AcDbLine
   0
 LINE
   5
-1E4
+1E7
 100
 AcDbEntity
   8
@@ -12927,7 +12993,7 @@ AcDbLine
   0
 LINE
   5
-1E5
+1E8
 100
 AcDbEntity
   8
@@ -12951,7 +13017,7 @@ AcDbLine
   0
 ARC
   5
-1E6
+1E9
 100
 AcDbEntity
   8
@@ -12979,7 +13045,7 @@ AcDbArc
   0
 ARC
   5
-1E7
+1EA
 100
 AcDbEntity
   8
@@ -13007,7 +13073,7 @@ AcDbArc
   0
 ARC
   5
-1E8
+1EB
 100
 AcDbEntity
   8
@@ -13035,7 +13101,7 @@ AcDbArc
   0
 ARC
   5
-1E9
+1EC
 100
 AcDbEntity
   8
@@ -13063,7 +13129,7 @@ AcDbArc
   0
 ARC
   5
-1EA
+1ED
 100
 AcDbEntity
   8
@@ -13091,7 +13157,7 @@ AcDbArc
   0
 ARC
   5
-1EB
+1EE
 100
 AcDbEntity
   8
@@ -13119,7 +13185,7 @@ AcDbArc
   0
 LINE
   5
-1EC
+1EF
 100
 AcDbEntity
   8
@@ -13143,7 +13209,7 @@ AcDbLine
   0
 LINE
   5
-1ED
+1F0
 100
 AcDbEntity
   8
@@ -13167,7 +13233,7 @@ AcDbLine
   0
 LINE
   5
-1EE
+1F1
 100
 AcDbEntity
   8
@@ -13191,7 +13257,7 @@ AcDbLine
   0
 CIRCLE
   5
-1EF
+1F2
 100
 AcDbEntity
   8
@@ -13213,7 +13279,7 @@ AcDbCircle
   0
 CIRCLE
   5
-1F0
+1F3
 100
 AcDbEntity
   8
@@ -13235,7 +13301,7 @@ AcDbCircle
   0
 ARC
   5
-1F1
+1F4
 100
 AcDbEntity
   8
@@ -13263,7 +13329,7 @@ AcDbArc
   0
 LINE
   5
-1F2
+1F5
 100
 AcDbEntity
   8
@@ -13287,7 +13353,7 @@ AcDbLine
   0
 LINE
   5
-1F3
+1F6
 100
 AcDbEntity
   8
@@ -13311,7 +13377,7 @@ AcDbLine
   0
 LINE
   5
-1F4
+1F7
 100
 AcDbEntity
   8
@@ -13335,7 +13401,7 @@ AcDbLine
   0
 ARC
   5
-1F5
+1F8
 100
 AcDbEntity
   8
@@ -13363,7 +13429,7 @@ AcDbArc
   0
 ARC
   5
-1F6
+1F9
 100
 AcDbEntity
   8
@@ -13391,7 +13457,7 @@ AcDbArc
   0
 LINE
   5
-1F7
+1FA
 100
 AcDbEntity
   8
@@ -13415,7 +13481,7 @@ AcDbLine
   0
 ARC
   5
-1F8
+1FB
 100
 AcDbEntity
   8
@@ -13443,7 +13509,7 @@ AcDbArc
   0
 ARC
   5
-1F9
+1FC
 100
 AcDbEntity
   8
@@ -13471,7 +13537,7 @@ AcDbArc
   0
 LINE
   5
-1FA
+1FD
 100
 AcDbEntity
   8
@@ -13495,7 +13561,7 @@ AcDbLine
   0
 LINE
   5
-1FB
+1FE
 100
 AcDbEntity
   8
@@ -13519,7 +13585,7 @@ AcDbLine
   0
 LINE
   5
-1FC
+1FF
 100
 AcDbEntity
   8
@@ -13543,7 +13609,7 @@ AcDbLine
   0
 ARC
   5
-1FD
+200
 100
 AcDbEntity
   8
@@ -13571,7 +13637,7 @@ AcDbArc
   0
 ARC
   5
-1FE
+201
 100
 AcDbEntity
   8
@@ -13599,7 +13665,7 @@ AcDbArc
   0
 LINE
   5
-1FF
+202
 100
 AcDbEntity
   8
@@ -13623,7 +13689,7 @@ AcDbLine
   0
 ARC
   5
-200
+203
 100
 AcDbEntity
   8
@@ -13651,7 +13717,7 @@ AcDbArc
   0
 ARC
   5
-201
+204
 100
 AcDbEntity
   8
@@ -13679,7 +13745,7 @@ AcDbArc
   0
 ARC
   5
-202
+205
 100
 AcDbEntity
   8
@@ -13707,7 +13773,7 @@ AcDbArc
   0
 ARC
   5
-203
+206
 100
 AcDbEntity
   8
@@ -13735,83 +13801,31 @@ AcDbArc
   0
 LINE
   5
-204
-100
-AcDbEntity
-  8
-fuselage-camera plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--21.50000000000001
- 20
-245.6642838216367
- 11
--21.50000000000001
- 21
-191.75
-  0
-ARC
-  5
-205
-100
-AcDbEntity
-  8
-fuselage-camera plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--18.50000000000001
- 20
-191.75
- 40
-3
-100
-AcDbArc
- 50
-180
- 51
-270
-  0
-LINE
-  5
-206
-100
-AcDbEntity
-  8
-fuselage-camera plate
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-21.5
- 20
-191.75
- 11
-21.5
- 21
-245.6642838216367
-  0
-LINE
-  5
 207
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+21.5
+ 20
+191.75
+ 11
+21.5
+ 21
+245.6642838216367
+  0
+LINE
+  5
+208
 100
 AcDbEntity
   8
@@ -13835,7 +13849,7 @@ AcDbLine
   0
 ARC
   5
-208
+209
 100
 AcDbEntity
   8
@@ -13860,6 +13874,2356 @@ AcDbArc
 269.9999999999999
  51
 0
+  0
+CIRCLE
+  5
+20A
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 40
+1.5
+  0
+LINE
+  5
+20B
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.5
+ 20
+2.5
+ 11
+7.5
+ 21
+-2.5
+  0
+LINE
+  5
+20C
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.5
+ 20
+2.5
+ 11
+17.5
+ 21
+16.5
+  0
+LINE
+  5
+20D
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7.5
+ 20
+-2.5
+ 11
+17.5
+ 21
+-16.5
+  0
+LINE
+  5
+20E
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-7.5
+ 20
+1.799999999999999
+ 11
+-7.5
+ 21
+-1.800000000000012
+  0
+LINE
+  5
+20F
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+17.5
+ 20
+17.5
+ 11
+17.5
+ 21
+16.5
+  0
+LINE
+  5
+210
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+17.5
+ 20
+-16.5
+ 11
+17.5
+ 21
+-17.5
+  0
+LINE
+  5
+211
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2.999999999999997
+ 20
+-16.5
+ 11
+2.999999999999997
+ 21
+-17.5
+  0
+LINE
+  5
+212
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-7.5
+ 20
+-1.800000000000012
+ 11
+2.999999999999997
+ 21
+-16.5
+  0
+LINE
+  5
+213
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.000000000000003
+ 20
+17.5
+ 11
+3.000000000000002
+ 21
+16.49999999999999
+  0
+LINE
+  5
+214
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-7.5
+ 20
+1.799999999999999
+ 11
+3.000000000000002
+ 21
+16.49999999999999
+  0
+LINE
+  5
+215
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+15.50000000000019
+ 20
+17.5
+ 11
+17.5
+ 21
+17.5
+  0
+ARC
+  5
+216
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+14.75
+ 20
+17.5
+ 40
+0.7499999999999956
+100
+AcDbArc
+ 50
+180
+ 51
+0
+  0
+ARC
+  5
+217
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5.75
+ 20
+17.5
+ 40
+0.7500000000000031
+100
+AcDbArc
+ 50
+180
+ 51
+360
+  0
+LINE
+  5
+218
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.000000000000003
+ 20
+17.5
+ 11
+4.999999999999945
+ 21
+17.5
+  0
+LINE
+  5
+219
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.500000000000003
+ 20
+19
+ 11
+14
+ 21
+19
+  0
+LINE
+  5
+21A
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.500000000000003
+ 20
+17.5
+ 11
+6.500000000000003
+ 21
+19
+  0
+LINE
+  5
+21B
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+14
+ 20
+17.5
+ 11
+14
+ 21
+19
+  0
+LINE
+  5
+21C
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+15.50000000000019
+ 20
+-17.5
+ 11
+17.5
+ 21
+-17.5
+  0
+ARC
+  5
+21D
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+14.75
+ 20
+-17.5
+ 40
+0.7499999999999956
+100
+AcDbArc
+ 50
+360
+ 51
+180
+  0
+ARC
+  5
+21E
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5.75
+ 20
+-17.5
+ 40
+0.7500000000000031
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+21F
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3.000000000000004
+ 20
+-17.5
+ 11
+4.999999999999945
+ 21
+-17.5
+  0
+LINE
+  5
+220
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.500000000000001
+ 20
+-19
+ 11
+14
+ 21
+-19
+  0
+LINE
+  5
+221
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.500000000000001
+ 20
+-17.5
+ 11
+6.500000000000001
+ 21
+-19
+  0
+LINE
+  5
+222
+100
+AcDbEntity
+  8
+fuselage-camera mount
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+14
+ 20
+-17.5
+ 11
+14
+ 21
+-19
+  0
+ARC
+  5
+223
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+0
+ 20
+0
+ 40
+7
+100
+AcDbArc
+ 50
+6.15063982794101
+ 51
+353.849360172059
+  0
+LINE
+  5
+224
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.5
+ 20
+-0.75
+ 11
+6.959705453537528
+ 21
+-0.7500000000000001
+  0
+LINE
+  5
+225
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.5
+ 20
+0.75
+ 11
+6.959705453537526
+ 21
+0.7500000000000003
+  0
+LINE
+  5
+226
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.5
+ 20
+10
+ 11
+11.5
+ 21
+0.75
+  0
+LINE
+  5
+227
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.5
+ 20
+-0.75
+ 11
+11.5
+ 21
+-10
+  0
+LINE
+  5
+228
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-11.5
+ 20
+-10
+ 11
+-11.5
+ 21
+10
+  0
+LINE
+  5
+229
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-5
+ 20
+11.5
+ 11
+5
+ 21
+11.5
+  0
+LINE
+  5
+22A
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5
+ 20
+-11.5
+ 11
+-5
+ 21
+-11.5
+  0
+ARC
+  5
+22B
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5.75
+ 20
+10
+ 40
+0.75
+100
+AcDbArc
+ 50
+180.0000000000002
+ 51
+359.9999999999999
+  0
+LINE
+  5
+22C
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.499999999999983
+ 20
+9.999999999999998
+ 11
+11.5
+ 21
+10
+  0
+LINE
+  5
+22D
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5
+ 20
+11.5
+ 11
+5
+ 21
+10
+  0
+ARC
+  5
+22E
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5.75
+ 20
+-10
+ 40
+0.75
+100
+AcDbArc
+ 50
+1.017777498068325e-013
+ 51
+179.9999999999998
+  0
+LINE
+  5
+22F
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.499999999999985
+ 20
+-9.999999999999995
+ 11
+11.5
+ 21
+-10
+  0
+LINE
+  5
+230
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5
+ 20
+-11.5
+ 11
+5
+ 21
+-10
+  0
+ARC
+  5
+231
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-5.75
+ 20
+10
+ 40
+0.75
+100
+AcDbArc
+ 50
+180.0000000000001
+ 51
+359.9999999999998
+  0
+LINE
+  5
+232
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-6.499999999999983
+ 20
+9.999999999999998
+ 11
+-11.5
+ 21
+10
+  0
+LINE
+  5
+233
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-5
+ 20
+11.5
+ 11
+-5
+ 21
+10
+  0
+ARC
+  5
+234
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-5.75
+ 20
+-10
+ 40
+0.75
+100
+AcDbArc
+ 50
+2.035554996136651e-013
+ 51
+179.9999999999999
+  0
+LINE
+  5
+235
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-6.499999999999985
+ 20
+-9.999999999999998
+ 11
+-11.5
+ 21
+-10
+  0
+LINE
+  5
+236
+100
+AcDbEntity
+  8
+fuselage-tube clip
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-5
+ 20
+-11.5
+ 11
+-5
+ 21
+-10
+  0
+LINE
+  5
+237
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+17.5
+ 20
+-17.5
+ 11
+17.5
+ 21
+17.5
+  0
+LINE
+  5
+238
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-17.5
+ 20
+17.5
+ 11
+-17.5
+ 21
+-17.5
+  0
+LINE
+  5
+239
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.5
+ 20
+19
+ 11
+4.500000000000001
+ 21
+19
+  0
+LINE
+  5
+23A
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.500000000000001
+ 20
+17.5
+ 11
+4.500000000000001
+ 21
+19
+  0
+LINE
+  5
+23B
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.5
+ 20
+17.5
+ 11
+11.5
+ 21
+19
+  0
+LINE
+  5
+23C
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+17.5
+ 20
+17.5
+ 11
+13
+ 21
+17.5
+  0
+ARC
+  5
+23D
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+12.25
+ 20
+17.5
+ 40
+0.75
+100
+AcDbArc
+ 50
+180
+ 51
+360
+  0
+ARC
+  5
+23E
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+3.75
+ 20
+17.5
+ 40
+0.75
+100
+AcDbArc
+ 50
+180
+ 51
+360
+  0
+LINE
+  5
+23F
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-11.5
+ 20
+19
+ 11
+-4.500000000000001
+ 21
+19
+  0
+LINE
+  5
+240
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-4.500000000000001
+ 20
+17.5
+ 11
+-4.500000000000001
+ 21
+19
+  0
+LINE
+  5
+241
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-11.5
+ 20
+17.5
+ 11
+-11.5
+ 21
+19
+  0
+LINE
+  5
+242
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-17.5
+ 20
+17.5
+ 11
+-13
+ 21
+17.5
+  0
+ARC
+  5
+243
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-12.25
+ 20
+17.5
+ 40
+0.75
+100
+AcDbArc
+ 50
+180
+ 51
+0
+  0
+ARC
+  5
+244
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-3.75
+ 20
+17.5
+ 40
+0.75
+100
+AcDbArc
+ 50
+180
+ 51
+0
+  0
+LINE
+  5
+245
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-3
+ 20
+17.5
+ 11
+3
+ 21
+17.5
+  0
+LINE
+  5
+246
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.5
+ 20
+-19
+ 11
+4.499999999999999
+ 21
+-19
+  0
+LINE
+  5
+247
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+4.499999999999999
+ 20
+-17.5
+ 11
+4.499999999999999
+ 21
+-19
+  0
+LINE
+  5
+248
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+11.5
+ 20
+-17.5
+ 11
+11.5
+ 21
+-19
+  0
+LINE
+  5
+249
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+17.5
+ 20
+-17.5
+ 11
+13
+ 21
+-17.5
+  0
+ARC
+  5
+24A
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+12.25
+ 20
+-17.5
+ 40
+0.75
+100
+AcDbArc
+ 50
+360
+ 51
+180
+  0
+ARC
+  5
+24B
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+3.75
+ 20
+-17.5
+ 40
+0.75
+100
+AcDbArc
+ 50
+360
+ 51
+180
+  0
+LINE
+  5
+24C
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-11.5
+ 20
+-19
+ 11
+-4.499999999999999
+ 21
+-19
+  0
+LINE
+  5
+24D
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-4.499999999999999
+ 20
+-17.5
+ 11
+-4.499999999999999
+ 21
+-19
+  0
+LINE
+  5
+24E
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-11.5
+ 20
+-17.5
+ 11
+-11.5
+ 21
+-19
+  0
+LINE
+  5
+24F
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-17.5
+ 20
+-17.5
+ 11
+-13
+ 21
+-17.5
+  0
+ARC
+  5
+250
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-12.25
+ 20
+-17.5
+ 40
+0.75
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+ARC
+  5
+251
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-3.75
+ 20
+-17.5
+ 40
+0.75
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+252
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-3
+ 20
+-17.5
+ 11
+3
+ 21
+-17.5
+  0
+ARC
+  5
+253
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+6.448804067647965
+ 20
+6.448804067647966
+ 40
+3
+100
+AcDbArc
+ 50
+9.770689105290929
+ 51
+80.22931089470912
+  0
+ARC
+  5
+254
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-1.898139848424685e-015
+ 20
+-31
+ 40
+41
+100
+AcDbArc
+ 50
+80.22931089470909
+ 51
+99.77068910529093
+  0
+ARC
+  5
+255
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-6.448804067647966
+ 20
+6.448804067647968
+ 40
+3
+100
+AcDbArc
+ 50
+99.770689105291
+ 51
+170.2293108947092
+  0
+ARC
+  5
+256
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+31
+ 20
+-3.79627969684937e-015
+ 40
+41
+100
+AcDbArc
+ 50
+170.2293108947091
+ 51
+189.7706891052909
+  0
+ARC
+  5
+257
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-6.448804067647966
+ 20
+-6.448804067647965
+ 40
+3
+100
+AcDbArc
+ 50
+189.7706891052908
+ 51
+260.2293108947092
+  0
+ARC
+  5
+258
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+5.694419545274054e-015
+ 20
+31
+ 40
+41
+100
+AcDbArc
+ 50
+260.2293108947091
+ 51
+279.7706891052909
+  0
+ARC
+  5
+259
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-31
+ 20
+0
+ 40
+41
+100
+AcDbArc
+ 50
+350.2293108947091
+ 51
+9.770689105290927
+  0
+ARC
+  5
+25A
+100
+AcDbEntity
+  8
+fuselage-camera cover
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+6.448804067647965
+ 20
+-6.44880406764797
+ 40
+3
+100
+AcDbArc
+ 50
+279.7706891052908
+ 51
+350.2293108947091
+  0
+ARC
+  5
+25B
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-18.50000000000001
+ 20
+191.75
+ 40
+3
+100
+AcDbArc
+ 50
+179.9999999999995
+ 51
+270
+  0
+ARC
+  5
+25C
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-23.00000000000001
+ 20
+207.25
+ 40
+1.5
+100
+AcDbArc
+ 50
+270.0000000000001
+ 51
+0
+  0
+ARC
+  5
+25D
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-22.99999999999928
+ 20
+193.25
+ 40
+1.5
+100
+AcDbArc
+ 50
+0
+ 51
+90.00000000000028
+  0
+LINE
+  5
+25E
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-21.5
+ 20
+245.664
+ 11
+-21.5
+ 21
+207.25
+  0
+LINE
+  5
+25F
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-21.50000000000001
+ 20
+191.75
+ 11
+-21.49999999999928
+ 21
+193.25
+  0
+LINE
+  5
+260
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-29.06239186818857
+ 20
+205.75
+ 11
+-23.00000000000001
+ 21
+205.75
+  0
+ARC
+  5
+261
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-29.06239186818856
+ 20
+204.25
+ 40
+1.5
+100
+AcDbArc
+ 50
+90.00000000000028
+ 51
+167.5131101858406
+  0
+LINE
+  5
+262
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-29.06239186818816
+ 20
+194.75
+ 11
+-22.99999999999928
+ 21
+194.75
+  0
+ARC
+  5
+263
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-11.00000000000001
+ 20
+200.25
+ 40
+19.99999999999996
+100
+AcDbArc
+ 50
+167.5131101858408
+ 51
+192.4868898141596
+  0
+ARC
+  5
+264
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-29.06239186818816
+ 20
+196.25
+ 40
+1.5
+100
+AcDbArc
+ 50
+192.4868898141595
+ 51
+270
+  0
+CIRCLE
+  5
+265
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+4.003741782554471e-015
+ 20
+205.0000000000002
+ 40
+3.25
+  0
+CIRCLE
+  5
+266
+100
+AcDbEntity
+  8
+fuselage-camera plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-25.75
+ 20
+200.25
+ 40
+3.25
   0
 ENDSEC
   0
