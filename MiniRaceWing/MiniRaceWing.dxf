@@ -23,15 +23,15 @@ $INSBASE
   9
 $EXTMIN
  10
--465.3439332740994
+-35.5
  20
--136.9219666370498
+2.842170943040401e-014
  30
 0
   9
 $EXTMAX
  10
-465.3439332740994
+35.5
  20
 251.75
  30
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-0
+fuselage-bottom plate
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-242.091884314663
+43.67048634160425
  22
-214.7741230495843
+123.8752516652611
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-742.2895129959319
+91.68475107597908
  41
-1.304568527918782
+1.84263959390863
  42
 50
  43
@@ -2257,7 +2257,7 @@ AcDbLayerTableRecord
   2
 fuselage-bottom plate
  70
-    4
+    0
  62
     1
   6
@@ -2815,7 +2815,7 @@ AcDbLayerTableRecord
   2
 wing-top decoration 2 left
  70
-    4
+    5
  62
    20
 420
@@ -2839,7 +2839,7 @@ AcDbLayerTableRecord
   2
 wing-top decoration 2 right
  70
-    4
+    5
  62
    20
 420
@@ -2907,7 +2907,7 @@ AcDbLayerTableRecord
   2
 wing-top demo
  70
-    4
+    5
  62
     7
   6
@@ -55400,6 +55400,422 @@ AcDbLine
 186.5
  21
 -13
+  0
+ARC
+  5
+8BE
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-16
+ 20
+206.5
+ 40
+0.5
+100
+AcDbArc
+ 50
+90
+ 51
+180
+  0
+LINE
+  5
+8BF
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-16.5
+ 20
+206.5
+ 11
+-16.5
+ 21
+203.5
+  0
+ARC
+  5
+8C0
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-16
+ 20
+203.5
+ 40
+0.5
+100
+AcDbArc
+ 50
+180
+ 51
+270
+  0
+LINE
+  5
+8C1
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-16
+ 20
+203
+ 11
+-15.5
+ 21
+203
+  0
+ARC
+  5
+8C2
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-15.5
+ 20
+203.5
+ 40
+0.5
+100
+AcDbArc
+ 50
+270
+ 51
+0
+  0
+LINE
+  5
+8C3
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-15
+ 20
+206.5
+ 11
+-15
+ 21
+203.5
+  0
+LINE
+  5
+8C4
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-16
+ 20
+207
+ 11
+-15.5
+ 21
+207
+  0
+ARC
+  5
+8C5
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-15.5
+ 20
+206.5
+ 40
+0.5
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+ARC
+  5
+8C6
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+15.5
+ 20
+206.5
+ 40
+0.5
+100
+AcDbArc
+ 50
+90
+ 51
+180
+  0
+LINE
+  5
+8C7
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+15
+ 20
+206.5
+ 11
+15
+ 21
+203.5
+  0
+ARC
+  5
+8C8
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+15.5
+ 20
+203.5
+ 40
+0.5
+100
+AcDbArc
+ 50
+180
+ 51
+270
+  0
+LINE
+  5
+8C9
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+15.5
+ 20
+203
+ 11
+16
+ 21
+203
+  0
+ARC
+  5
+8CA
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+16
+ 20
+203.5
+ 40
+0.5
+100
+AcDbArc
+ 50
+270
+ 51
+0
+  0
+LINE
+  5
+8CB
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+16.5
+ 20
+206.5
+ 11
+16.5
+ 21
+203.5
+  0
+LINE
+  5
+8CC
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+15.5
+ 20
+207
+ 11
+16
+ 21
+207
+  0
+ARC
+  5
+8CD
+100
+AcDbEntity
+  8
+fuselage-bottom plate
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+16
+ 20
+206.5
+ 40
+0.5
+100
+AcDbArc
+ 50
+0
+ 51
+90
   0
 ENDSEC
   0
